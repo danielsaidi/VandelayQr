@@ -3,10 +3,10 @@
 </p>
 
 
-# VandelayQR
+# VandelayQr
 
 [![Version](https://badge.fury.io/gh/danielsaidi%2FVandelayQr.svg?style=flat)](http://badge.fury.io/gh/danielsaidi%2FVandelayQr)
-[![Carthage](https://img.shields.io/badge/carthage-supported-green.svg?style=flat)](vandelayqr)
+[![Carthage](https://img.shields.io/badge/carthage-supported-green.svg?style=flat)](github)
 [![CocoaPods](https://img.shields.io/cocoapods/v/VandelayQr.svg?style=flat)](pod)
 ![Platform](https://img.shields.io/cocoapods/p/VandelayQr.svg?style=flat)
 [![License](https://badges.frapsoft.com/os/mit/mit.svg?style=flat&v=102)](https://github.com/ellerbrock/open-source-badge/)
@@ -14,7 +14,7 @@
 
 ## About
 
-VandelayQR adds QR code support to [Vandelay](vandelay). It includes a
+VandelayQr adds QR code support to [Vandelay](vandelay). It includes a
 QR code importer that can import strings and data by scanning QR codes.
 It also has a class that can create QR code images from URLs.
 
@@ -30,7 +30,7 @@ run `pod install`:
 pod "VandelayQr"
 ```
 
-This also installs [Vandelay](vandelay) and [QRCodeReader](qrcodereader).
+This will also install [Vandelay](vandelay) and [QRCodeReader](qrcodereader).
 
 ### Carthage
 
@@ -54,8 +54,9 @@ of QR codes, that refer to urls that contain importable data.
 
 ## Importing data
 
-VandelayQR gives you access to the `QrCodeImporter` importer. It makes
-it possible to import strings and data by scanning QR codes.
+If you add `VandelayQr`, you get access to the following importer:
+
+- `QrCodeImporter` - imports `strings` & `data` by scanning QR codes
 
 To use this feature, make sure to specify a `NSCameraUsageDescription`
 text in Info.plist. Otherwise, the app will crash. Also make sure that
@@ -65,9 +66,6 @@ probably a good idea :)
 
 
 ## Example Project
-
-Vandelay comes with an example project that lets you import todo lists
-(strings) and photos (data) by scanning a QR code.
 
 Before you can run the example app, you have to install `Carthage` and
 run `carthage update --platform iOS`. This will setup all dependencies
@@ -82,7 +80,7 @@ project from your phone and scan that code to import data into the app.
 ## Versioning
 
 Versions < 1.0.0 will have breaking changes between minor versions, so
-you may have to adjust your code or use specific versions.
+VandelayQr 0.8.0 will probably not be compatible with 0.7.0 etc.
 
 
 ## Author
@@ -92,12 +90,12 @@ Daniel Saidi, daniel.saidi@gmail.com
 
 ## License
 
-VandelayQR is available under the MIT license. See the LICENSE file for more info.
+VandelayQr is available under the MIT license. See the LICENSE file for more info.
 
 
 [carthage]: https://github.com/Carthage
 [cocoapods]: http://cocoapods.org
+[github]: https://github.com/danielsaidi/VandelayQr
 [pod]: http://cocoapods.org/pods/VandelayQr
 [qrcodereader]: https://github.com/yannickl/QRCodeReader.swift
 [vandelay]: https://github.com/danielsaidi/Vandelay
-[vandelayqr]: https://github.com/danielsaidi/VandelayQr

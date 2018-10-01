@@ -10,5 +10,5 @@ before_install:
   - travis_wait carthage bootstrap --platform iOS
 
 script:
-  - xcodebuild -project "Vandelay.xcodeproj" -scheme "Vandelay" -sdk "iphonesimulator" | xcpretty -c
+  - xcodebuild -project "VandelayQr.xcodeproj" -scheme "VandelayQr" -sdk "iphonesimulator" | xcpretty -c
   - fastlane test

@@ -1,6 +1,20 @@
 # Vandelay Changelog
 
 
+## 0.7.2
+
+This version is just published to conform to Vandelay 0.7.2. It splits
+up the three Vandelay projects into separate repositories, but it does
+not contain any breaking changes, except that the `qrCode` import case
+has been temp replaced by a `custom(name: "qrCode")` one.
+
+
+## 0.7.1
+
+Vandelay 0.7.1 was just a temporary version while splitting up the lib
+into separate repositories. It shouldn't be used.
+
+
 ## 0.7.0
 
 This version migrates Vandelay to Swift 4.2. For now, the tests do run

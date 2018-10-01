@@ -1,2 +1,2 @@
-github "danielsaidi/Vandelay"
+github "danielsaidi/Vandelay" "0.7.2"
 github "yannickl/QRCodeReader.swift" >= 8.2.0

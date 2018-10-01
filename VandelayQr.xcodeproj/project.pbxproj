@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8424BD7E216381F4002CAB64 /* VandelayQr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BD74216381F4002CAB64 /* VandelayQr.framework */; };
+		8424BD85216381F4002CAB64 /* VandelayQr.h in Headers */ = {isa = PBXBuildFile; fileRef = 8424BD77216381F4002CAB64 /* VandelayQr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8424BDB321638234002CAB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDB221638234002CAB64 /* AppDelegate.swift */; };
+		8424BDB521638234002CAB64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDB421638234002CAB64 /* ViewController.swift */; };
+		8424BDB821638234002CAB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8424BDB621638234002CAB64 /* Main.storyboard */; };
+		8424BDBA21638235002CAB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8424BDB921638235002CAB64 /* Assets.xcassets */; };
+		8424BDBD21638235002CAB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8424BDBB21638235002CAB64 /* LaunchScreen.storyboard */; };
+		8424BDC7216385E0002CAB64 /* QrCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDC4216385E0002CAB64 /* QrCodeGenerator.swift */; };
+		8424BDC8216385E0002CAB64 /* QrCodeImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDC5216385E0002CAB64 /* QrCodeImporter.swift */; };
+		8424BDC9216385E0002CAB64 /* StandardQrCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDC6216385E0002CAB64 /* StandardQrCodeGenerator.swift */; };
+		8424BDCC21639BD0002CAB64 /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDCB21639BD0002CAB64 /* QRCodeReader.framework */; };
+		8424BDCE21639CC5002CAB64 /* QrCodeImportMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDCD21639CC5002CAB64 /* QrCodeImportMethod.swift */; };
+		8424BDD121639D10002CAB64 /* StandardQrCodeGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDCF21639D10002CAB64 /* StandardQrCodeGeneratorTests.swift */; };
+		8424BDD221639D10002CAB64 /* QrCodeImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDD021639D10002CAB64 /* QrCodeImporterTests.swift */; };
+		8424BDD621639D66002CAB64 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDD421639D65002CAB64 /* Nimble.framework */; };
+		8424BDD721639D66002CAB64 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDD521639D66002CAB64 /* Quick.framework */; };
+		8424BDD821639D6C002CAB64 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8424BDD421639D65002CAB64 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8424BDD921639D6C002CAB64 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8424BDD521639D66002CAB64 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8424BDDA21639D90002CAB64 /* VandelayQr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BD74216381F4002CAB64 /* VandelayQr.framework */; };
+		8424BDDB21639D90002CAB64 /* VandelayQr.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BD74216381F4002CAB64 /* VandelayQr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8424BDE021639E8B002CAB64 /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDCB21639BD0002CAB64 /* QRCodeReader.framework */; };
+		8424BDE221639E8C002CAB64 /* Vandelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDE121639E8C002CAB64 /* Vandelay.framework */; };
+		8424BDED21639EBC002CAB64 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE421639EBC002CAB64 /* UIImage+Resize.swift */; };
+		8424BDEE21639EBC002CAB64 /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE521639EBC002CAB64 /* PhotoRepository.swift */; };
+		8424BDEF21639EBC002CAB64 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE621639EBC002CAB64 /* Photo.swift */; };
+		8424BDF021639EBC002CAB64 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE721639EBC002CAB64 /* PhotoViewController.swift */; };
+		8424BDF121639EBC002CAB64 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE821639EBC002CAB64 /* PhotoCollectionViewCell.swift */; };
+		8424BDF221639EBC002CAB64 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDEA21639EBC002CAB64 /* TodoItem.swift */; };
+		8424BDF321639EBC002CAB64 /* TodoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDEB21639EBC002CAB64 /* TodoItemViewController.swift */; };
+		8424BDF421639EBC002CAB64 /* TodoItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDEC21639EBC002CAB64 /* TodoItemRepository.swift */; };
+		8424BDFB2163A5E7002CAB64 /* ViewController+Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDF92163A5E7002CAB64 /* ViewController+Export.swift */; };
+		8424BDFC2163A5E7002CAB64 /* ViewController+Import.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDFA2163A5E7002CAB64 /* ViewController+Import.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8424BD7F216381F4002CAB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424BD6B216381F4002CAB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8424BD73216381F4002CAB64;
+			remoteInfo = VandelayQr;
+		};
+		8424BDC2216383ED002CAB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424BD6B216381F4002CAB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8424BDAF21638234002CAB64;
+			remoteInfo = VandelayQrExample;
+		};
+		8424BDDC21639D90002CAB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424BD6B216381F4002CAB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8424BD73216381F4002CAB64;
+			remoteInfo = VandelayQr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8424BDD321639D30002CAB64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8424BDD821639D6C002CAB64 /* Nimble.framework in CopyFiles */,
+				8424BDD921639D6C002CAB64 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8424BDDE21639D90002CAB64 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8424BDDB21639D90002CAB64 /* VandelayQr.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8424BD74216381F4002CAB64 /* VandelayQr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VandelayQr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8424BD77216381F4002CAB64 /* VandelayQr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VandelayQr.h; sourceTree = "<group>"; };
+		8424BD78216381F4002CAB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8424BD7D216381F4002CAB64 /* VandelayQrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VandelayQrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8424BD84216381F4002CAB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8424BDB021638234002CAB64 /* VandelayQrExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VandelayQrExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8424BDB221638234002CAB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8424BDB421638234002CAB64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8424BDB721638234002CAB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8424BDB921638235002CAB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8424BDBC21638235002CAB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8424BDBE21638235002CAB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8424BDC4216385E0002CAB64 /* QrCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeGenerator.swift; sourceTree = "<group>"; };
+		8424BDC5216385E0002CAB64 /* QrCodeImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeImporter.swift; sourceTree = "<group>"; };
+		8424BDC6216385E0002CAB64 /* StandardQrCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardQrCodeGenerator.swift; sourceTree = "<group>"; };
+		8424BDCB21639BD0002CAB64 /* QRCodeReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QRCodeReader.framework; path = Carthage/Build/iOS/QRCodeReader.framework; sourceTree = "<group>"; };
+		8424BDCD21639CC5002CAB64 /* QrCodeImportMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeImportMethod.swift; sourceTree = "<group>"; };
+		8424BDCF21639D10002CAB64 /* StandardQrCodeGeneratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardQrCodeGeneratorTests.swift; sourceTree = "<group>"; };
+		8424BDD021639D10002CAB64 /* QrCodeImporterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeImporterTests.swift; sourceTree = "<group>"; };
+		8424BDD421639D65002CAB64 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		8424BDD521639D66002CAB64 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		8424BDE121639E8C002CAB64 /* Vandelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vandelay.framework; path = Carthage/Build/iOS/Vandelay.framework; sourceTree = "<group>"; };
+		8424BDE421639EBC002CAB64 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		8424BDE521639EBC002CAB64 /* PhotoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoRepository.swift; sourceTree = "<group>"; };
+		8424BDE621639EBC002CAB64 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		8424BDE721639EBC002CAB64 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		8424BDE821639EBC002CAB64 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		8424BDEA21639EBC002CAB64 /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		8424BDEB21639EBC002CAB64 /* TodoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItemViewController.swift; sourceTree = "<group>"; };
+		8424BDEC21639EBC002CAB64 /* TodoItemRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItemRepository.swift; sourceTree = "<group>"; };
+		8424BDF92163A5E7002CAB64 /* ViewController+Export.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Export.swift"; sourceTree = "<group>"; };
+		8424BDFA2163A5E7002CAB64 /* ViewController+Import.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Import.swift"; sourceTree = "<group>"; };
+		84AB53192164066C00F8C7F1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		84AB531A2164066C00F8C7F1 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		84AB531B2164066C00F8C7F1 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		84AB531C2164066C00F8C7F1 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		84AB531D2164067B00F8C7F1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		84AB531E2164067B00F8C7F1 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Fastfile; path = Fastlane/Fastfile; sourceTree = "<group>"; };
+		84AB531F2164067B00F8C7F1 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		84AB53202164067B00F8C7F1 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
+		84AB53212164067B00F8C7F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84AB53222164067B00F8C7F1 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		84AB53232164067B00F8C7F1 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8424BD71216381F4002CAB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8424BDCC21639BD0002CAB64 /* QRCodeReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8424BD7A216381F4002CAB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8424BDD621639D66002CAB64 /* Nimble.framework in Frameworks */,
+				8424BDD721639D66002CAB64 /* Quick.framework in Frameworks */,
+				8424BD7E216381F4002CAB64 /* VandelayQr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8424BDAD21638234002CAB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8424BDE221639E8C002CAB64 /* Vandelay.framework in Frameworks */,
+				8424BDE021639E8B002CAB64 /* QRCodeReader.framework in Frameworks */,
+				8424BDDA21639D90002CAB64 /* VandelayQr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8424BD6A216381F4002CAB64 = {
+			isa = PBXGroup;
+			children = (
+				8424BD76216381F4002CAB64 /* VandelayQr */,
+				8424BD81216381F4002CAB64 /* VandelayQrTests */,
+				8424BDB121638234002CAB64 /* VandelayQrExample */,
+				8424BD75216381F4002CAB64 /* Products */,
+				84AB53182164065700F8C7F1 /* Project Files */,
+				8424BDCA21639BD0002CAB64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8424BD75216381F4002CAB64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8424BD74216381F4002CAB64 /* VandelayQr.framework */,
+				8424BD7D216381F4002CAB64 /* VandelayQrTests.xctest */,
+				8424BDB021638234002CAB64 /* VandelayQrExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8424BD76216381F4002CAB64 /* VandelayQr */ = {
+			isa = PBXGroup;
+			children = (
+				8424BD78216381F4002CAB64 /* Info.plist */,
+				8424BDC4216385E0002CAB64 /* QrCodeGenerator.swift */,
+				8424BDC5216385E0002CAB64 /* QrCodeImporter.swift */,
+				8424BDCD21639CC5002CAB64 /* QrCodeImportMethod.swift */,
+				8424BDC6216385E0002CAB64 /* StandardQrCodeGenerator.swift */,
+				8424BD77216381F4002CAB64 /* VandelayQr.h */,
+			);
+			path = VandelayQr;
+			sourceTree = "<group>";
+		};
+		8424BD81216381F4002CAB64 /* VandelayQrTests */ = {
+			isa = PBXGroup;
+			children = (
+				8424BD84216381F4002CAB64 /* Info.plist */,
+				8424BDD021639D10002CAB64 /* QrCodeImporterTests.swift */,
+				8424BDCF21639D10002CAB64 /* StandardQrCodeGeneratorTests.swift */,
+			);
+			path = VandelayQrTests;
+			sourceTree = "<group>";
+		};
+		8424BDB121638234002CAB64 /* VandelayQrExample */ = {
+			isa = PBXGroup;
+			children = (
+				8424BDB221638234002CAB64 /* AppDelegate.swift */,
+				8424BDB921638235002CAB64 /* Assets.xcassets */,
+				8424BDBE21638235002CAB64 /* Info.plist */,
+				8424BDBB21638235002CAB64 /* LaunchScreen.storyboard */,
+				8424BDB621638234002CAB64 /* Main.storyboard */,
+				8424BDE321639EBC002CAB64 /* Photos */,
+				8424BDE921639EBC002CAB64 /* TodoList */,
+				8424BDB421638234002CAB64 /* ViewController.swift */,
+				8424BDF92163A5E7002CAB64 /* ViewController+Export.swift */,
+				8424BDFA2163A5E7002CAB64 /* ViewController+Import.swift */,
+			);
+			path = VandelayQrExample;
+			sourceTree = "<group>";
+		};
+		8424BDCA21639BD0002CAB64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8424BDE121639E8C002CAB64 /* Vandelay.framework */,
+				8424BDD421639D65002CAB64 /* Nimble.framework */,
+				8424BDD521639D66002CAB64 /* Quick.framework */,
+				8424BDCB21639BD0002CAB64 /* QRCodeReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8424BDE321639EBC002CAB64 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				8424BDE421639EBC002CAB64 /* UIImage+Resize.swift */,
+				8424BDE521639EBC002CAB64 /* PhotoRepository.swift */,
+				8424BDE621639EBC002CAB64 /* Photo.swift */,
+				8424BDE721639EBC002CAB64 /* PhotoViewController.swift */,
+				8424BDE821639EBC002CAB64 /* PhotoCollectionViewCell.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		8424BDE921639EBC002CAB64 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				8424BDEA21639EBC002CAB64 /* TodoItem.swift */,
+				8424BDEB21639EBC002CAB64 /* TodoItemViewController.swift */,
+				8424BDEC21639EBC002CAB64 /* TodoItemRepository.swift */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		84AB53182164065700F8C7F1 /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AB53192164066C00F8C7F1 /* .gitignore */,
+				84AB531B2164066C00F8C7F1 /* .swift-version */,
+				84AB531A2164066C00F8C7F1 /* .swiftlint.yml */,
+				84AB531C2164066C00F8C7F1 /* .travis.yml */,
+				84AB53232164067B00F8C7F1 /* Cartfile */,
+				84AB53202164067B00F8C7F1 /* Cartfile.private */,
+				84AB53222164067B00F8C7F1 /* Cartfile.resolved */,
+				84AB531F2164067B00F8C7F1 /* CHANGELOG.md */,
+				84AB531E2164067B00F8C7F1 /* Fastfile */,
+				84AB531D2164067B00F8C7F1 /* LICENSE */,
+				84AB53212164067B00F8C7F1 /* README.md */,
+			);
+			name = "Project Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8424BD6F216381F4002CAB64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8424BD85216381F4002CAB64 /* VandelayQr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8424BD73216381F4002CAB64 /* VandelayQr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8424BD88216381F4002CAB64 /* Build configuration list for PBXNativeTarget "VandelayQr" */;
+			buildPhases = (
+				8424BD6F216381F4002CAB64 /* Headers */,
+				8424BD70216381F4002CAB64 /* Sources */,
+				8424BD71216381F4002CAB64 /* Frameworks */,
+				8424BD72216381F4002CAB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VandelayQr;
+			productName = VandelayQr;
+			productReference = 8424BD74216381F4002CAB64 /* VandelayQr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8424BD7C216381F4002CAB64 /* VandelayQrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8424BD8B216381F4002CAB64 /* Build configuration list for PBXNativeTarget "VandelayQrTests" */;
+			buildPhases = (
+				8424BD79216381F4002CAB64 /* Sources */,
+				8424BD7A216381F4002CAB64 /* Frameworks */,
+				8424BD7B216381F4002CAB64 /* Resources */,
+				8424BDD321639D30002CAB64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8424BD80216381F4002CAB64 /* PBXTargetDependency */,
+				8424BDC3216383ED002CAB64 /* PBXTargetDependency */,
+			);
+			name = VandelayQrTests;
+			productName = VandelayQrTests;
+			productReference = 8424BD7D216381F4002CAB64 /* VandelayQrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8424BDAF21638234002CAB64 /* VandelayQrExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8424BDBF21638235002CAB64 /* Build configuration list for PBXNativeTarget "VandelayQrExample" */;
+			buildPhases = (
+				8424BDAC21638234002CAB64 /* Sources */,
+				8424BDAD21638234002CAB64 /* Frameworks */,
+				8424BDAE21638234002CAB64 /* Resources */,
+				8424BDDE21639D90002CAB64 /* Embed Frameworks */,
+				8424BDDF21639DCF002CAB64 /* [Carthage Copy Files] */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8424BDDD21639D90002CAB64 /* PBXTargetDependency */,
+			);
+			name = VandelayQrExample;
+			productName = VandelayQrExample;
+			productReference = 8424BDB021638234002CAB64 /* VandelayQrExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8424BD6B216381F4002CAB64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Daniel Saidi";
+				TargetAttributes = {
+					8424BD73216381F4002CAB64 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					8424BD7C216381F4002CAB64 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						TestTargetID = 8424BDAF21638234002CAB64;
+					};
+					8424BDAF21638234002CAB64 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 8424BD6E216381F4002CAB64 /* Build configuration list for PBXProject "VandelayQr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8424BD6A216381F4002CAB64;
+			productRefGroup = 8424BD75216381F4002CAB64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8424BD73216381F4002CAB64 /* VandelayQr */,
+				8424BD7C216381F4002CAB64 /* VandelayQrTests */,
+				8424BDAF21638234002CAB64 /* VandelayQrExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8424BD72216381F4002CAB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8424BD7B216381F4002CAB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8424BDAE21638234002CAB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8424BDBD21638235002CAB64 /* LaunchScreen.storyboard in Resources */,
+				8424BDBA21638235002CAB64 /* Assets.xcassets in Resources */,
+				8424BDB821638234002CAB64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8424BDDF21639DCF002CAB64 /* [Carthage Copy Files] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Vandelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/QRCodeReader.framework",
+			);
+			name = "[Carthage Copy Files]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Vandelay.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/QRCodeReader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8424BD70216381F4002CAB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8424BDC9216385E0002CAB64 /* StandardQrCodeGenerator.swift in Sources */,
+				8424BDCE21639CC5002CAB64 /* QrCodeImportMethod.swift in Sources */,
+				8424BDC7216385E0002CAB64 /* QrCodeGenerator.swift in Sources */,
+				8424BDC8216385E0002CAB64 /* QrCodeImporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8424BD79216381F4002CAB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8424BDD121639D10002CAB64 /* StandardQrCodeGeneratorTests.swift in Sources */,
+				8424BDD221639D10002CAB64 /* QrCodeImporterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8424BDAC21638234002CAB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8424BDB521638234002CAB64 /* ViewController.swift in Sources */,
+				8424BDB321638234002CAB64 /* AppDelegate.swift in Sources */,
+				8424BDEE21639EBC002CAB64 /* PhotoRepository.swift in Sources */,
+				8424BDED21639EBC002CAB64 /* UIImage+Resize.swift in Sources */,
+				8424BDF121639EBC002CAB64 /* PhotoCollectionViewCell.swift in Sources */,
+				8424BDEF21639EBC002CAB64 /* Photo.swift in Sources */,
+				8424BDF321639EBC002CAB64 /* TodoItemViewController.swift in Sources */,
+				8424BDFC2163A5E7002CAB64 /* ViewController+Import.swift in Sources */,
+				8424BDFB2163A5E7002CAB64 /* ViewController+Export.swift in Sources */,
+				8424BDF221639EBC002CAB64 /* TodoItem.swift in Sources */,
+				8424BDF421639EBC002CAB64 /* TodoItemRepository.swift in Sources */,
+				8424BDF021639EBC002CAB64 /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8424BD80216381F4002CAB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8424BD73216381F4002CAB64 /* VandelayQr */;
+			targetProxy = 8424BD7F216381F4002CAB64 /* PBXContainerItemProxy */;
+		};
+		8424BDC3216383ED002CAB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8424BDAF21638234002CAB64 /* VandelayQrExample */;
+			targetProxy = 8424BDC2216383ED002CAB64 /* PBXContainerItemProxy */;
+		};
+		8424BDDD21639D90002CAB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8424BD73216381F4002CAB64 /* VandelayQr */;
+			targetProxy = 8424BDDC21639D90002CAB64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8424BDB621638234002CAB64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8424BDB721638234002CAB64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8424BDBB21638235002CAB64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8424BDBC21638235002CAB64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8424BD86216381F4002CAB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8424BD87216381F4002CAB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8424BD89216381F4002CAB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayQr/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQr;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8424BD8A216381F4002CAB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayQr/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQr;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8424BD8C216381F4002CAB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayQrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VandelayQrExample.app/VandelayQrExample";
+			};
+			name = Debug;
+		};
+		8424BD8D216381F4002CAB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayQrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VandelayQrExample.app/VandelayQrExample";
+			};
+			name = Release;
+		};
+		8424BDC021638235002CAB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayQrExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQrExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8424BDC121638235002CAB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayQrExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQrExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8424BD6E216381F4002CAB64 /* Build configuration list for PBXProject "VandelayQr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8424BD86216381F4002CAB64 /* Debug */,
+				8424BD87216381F4002CAB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8424BD88216381F4002CAB64 /* Build configuration list for PBXNativeTarget "VandelayQr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8424BD89216381F4002CAB64 /* Debug */,
+				8424BD8A216381F4002CAB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8424BD8B216381F4002CAB64 /* Build configuration list for PBXNativeTarget "VandelayQrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8424BD8C216381F4002CAB64 /* Debug */,
+				8424BD8D216381F4002CAB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8424BDBF21638235002CAB64 /* Build configuration list for PBXNativeTarget "VandelayQrExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8424BDC021638235002CAB64 /* Debug */,
+				8424BDC121638235002CAB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8424BD6B216381F4002CAB64 /* Project object */;
+}
