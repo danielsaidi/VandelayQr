@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8400C5B921491EDB00C19232 /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400C5B821491EDB00C19232 /* QRCodeReader.framework */; };
+		8400C5C921491F8900C19232 /* QrCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5C521491F8900C19232 /* QrCodeGenerator.swift */; };
+		8400C5CA21491F8A00C19232 /* StandardQrCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5C621491F8900C19232 /* StandardQrCodeGenerator.swift */; };
+		8400C5CB21491F8A00C19232 /* QrCodeImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5C821491F8900C19232 /* QrCodeImporter.swift */; };
+		8400C5E32149BC9800C19232 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400C5E12149BC9800C19232 /* Nimble.framework */; };
+		8400C5E42149BC9800C19232 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400C5E22149BC9800C19232 /* Quick.framework */; };
+		8400C5ED2149BDAE00C19232 /* MockDataExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5EC2149BDAE00C19232 /* MockDataExporter.swift */; };
+		8400C5EF2149BEA000C19232 /* DataExporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5EE2149BEA000C19232 /* DataExporterTests.swift */; };
+		8400C5F12149C10500C19232 /* EmailExporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5F02149C10500C19232 /* EmailExporterTests.swift */; };
+		8400C5F32149C1E900C19232 /* ExporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5F22149C1E900C19232 /* ExporterTests.swift */; };
+		8400C5F52149C38C00C19232 /* FileExporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5F42149C38C00C19232 /* FileExporterTests.swift */; };
+		8400C5F72149C3BA00C19232 /* MessageExporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5F62149C3BA00C19232 /* MessageExporterTests.swift */; };
+		8400C5F92149C3EC00C19232 /* PasteboardExporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5F82149C3EC00C19232 /* PasteboardExporterTests.swift */; };
+		8400C5FB214A2B0200C19232 /* StringExporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5FA214A2B0200C19232 /* StringExporterTests.swift */; };
+		8400C5FE214A2C3300C19232 /* StaticFileNameGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5FD214A2C3300C19232 /* StaticFileNameGeneratorTests.swift */; };
+		8400C600214A2CB100C19232 /* RandomFileNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C5FF214A2CB100C19232 /* RandomFileNameGenerator.swift */; };
+		8400C604214A31B100C19232 /* MockDataImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C603214A31B100C19232 /* MockDataImporter.swift */; };
+		8400C606214A329800C19232 /* FileImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C605214A329800C19232 /* FileImporterTests.swift */; };
+		8400C608214A32A400C19232 /* PasteboardImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C607214A32A400C19232 /* PasteboardImporterTests.swift */; };
+		8400C60A214A32B800C19232 /* UrlImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C609214A32B800C19232 /* UrlImporterTests.swift */; };
+		8400C60D214A33D300C19232 /* QrCodeImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C60C214A33D300C19232 /* QrCodeImporterTests.swift */; };
+		8400C60F214A4DA400C19232 /* StandardQrCodeGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400C60E214A4DA400C19232 /* StandardQrCodeGeneratorTests.swift */; };
+		84B1440821463AC9001CE5D7 /* VandelayQr.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B143FA21463AC9001CE5D7 /* VandelayQr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D0A6E3214BED0300139AF6 /* DropboxExporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6E2214BED0300139AF6 /* DropboxExporterTests.swift */; };
+		84D0A6E5214BED5500139AF6 /* DropboxImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6E4214BED5500139AF6 /* DropboxImporterTests.swift */; };
+		84D0A6E7214BF57E00139AF6 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6E6214BF57E00139AF6 /* Accounts.swift */; };
+		84D0A6E9214BF67200139AF6 /* Accounts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D0A6E8214BF67200139AF6 /* Accounts.plist */; };
+		84D0A703214C5BA600139AF6 /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6F9214C5BA500139AF6 /* PhotoRepository.swift */; };
+		84D0A704214C5BA600139AF6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6FA214C5BA500139AF6 /* Photo.swift */; };
+		84D0A705214C5BA600139AF6 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6FB214C5BA500139AF6 /* PhotoViewController.swift */; };
+		84D0A706214C5BA600139AF6 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6FC214C5BA500139AF6 /* PhotoCollectionViewCell.swift */; };
+		84D0A707214C5BA600139AF6 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6FE214C5BA500139AF6 /* TodoItem.swift */; };
+		84D0A708214C5BA600139AF6 /* TodoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6FF214C5BA500139AF6 /* TodoItemViewController.swift */; };
+		84D0A709214C5BA600139AF6 /* TodoItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A700214C5BA500139AF6 /* TodoItemRepository.swift */; };
+		84D0A70A214C5BA600139AF6 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A702214C5BA500139AF6 /* UIImage+Resize.swift */; };
+		84D0A70D214E9A7A00139AF6 /* ViewController+Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A70C214E9A7A00139AF6 /* ViewController+Export.swift */; };
+		84D0A70F214E9DF800139AF6 /* ViewController+Import.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A70E214E9DF800139AF6 /* ViewController+Import.swift */; };
+		84D1A45D215E6F7200EA1B89 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D0A6D4214B979900139AF6 /* Alamofire.framework */; };
+		84D1A45E215E6F7200EA1B89 /* SwiftyDropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D0A6CA214B968F00139AF6 /* SwiftyDropbox.framework */; };
+		84D1A468215E6F9800EA1B89 /* VandelayQr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B143F821463AC8001CE5D7 /* VandelayQr.framework */; };
+		84D1A469215E6F9800EA1B89 /* VandelayQr.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84B143F821463AC8001CE5D7 /* VandelayQr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84D1A46D215E700400EA1B89 /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400C5B821491EDB00C19232 /* QRCodeReader.framework */; };
+		84D1A470215E76B300EA1B89 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8400C5E12149BC9800C19232 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84D1A471215E76B300EA1B89 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8400C5E22149BC9800C19232 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84F22D6F2148B184005DEC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F22D6E2148B184005DEC41 /* AppDelegate.swift */; };
+		84F22D712148B184005DEC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F22D702148B184005DEC41 /* ViewController.swift */; };
+		84F22D742148B184005DEC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F22D722148B184005DEC41 /* Main.storyboard */; };
+		84F22D762148B186005DEC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F22D752148B186005DEC41 /* Assets.xcassets */; };
+		84F22D792148B186005DEC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F22D772148B186005DEC41 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8400C5E82149BCFC00C19232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B1436C21463A42001CE5D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F22D6B2148B184005DEC41;
+			remoteInfo = VandelayExample;
+		};
+		84D1A46A215E6F9800EA1B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B1436C21463A42001CE5D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B143F721463AC8001CE5D7;
+			remoteInfo = VandelayQr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84D1A46C215E6F9800EA1B89 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84D1A469215E6F9800EA1B89 /* VandelayQr.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D1A46F215E76A800EA1B89 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84D1A470215E76B300EA1B89 /* Nimble.framework in CopyFiles */,
+				84D1A471215E76B300EA1B89 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8400C5B821491EDB00C19232 /* QRCodeReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QRCodeReader.framework; path = Carthage/Build/iOS/QRCodeReader.framework; sourceTree = "<group>"; };
+		8400C5C521491F8900C19232 /* QrCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeGenerator.swift; sourceTree = "<group>"; };
+		8400C5C621491F8900C19232 /* StandardQrCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardQrCodeGenerator.swift; sourceTree = "<group>"; };
+		8400C5C821491F8900C19232 /* QrCodeImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeImporter.swift; sourceTree = "<group>"; };
+		8400C5D62149BC6900C19232 /* VandelayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VandelayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8400C5DA2149BC6900C19232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8400C5E12149BC9800C19232 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		8400C5E22149BC9800C19232 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		8400C5EC2149BDAE00C19232 /* MockDataExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataExporter.swift; sourceTree = "<group>"; };
+		8400C5EE2149BEA000C19232 /* DataExporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExporterTests.swift; sourceTree = "<group>"; };
+		8400C5F02149C10500C19232 /* EmailExporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailExporterTests.swift; sourceTree = "<group>"; };
+		8400C5F22149C1E900C19232 /* ExporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExporterTests.swift; sourceTree = "<group>"; };
+		8400C5F42149C38C00C19232 /* FileExporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExporterTests.swift; sourceTree = "<group>"; };
+		8400C5F62149C3BA00C19232 /* MessageExporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageExporterTests.swift; sourceTree = "<group>"; };
+		8400C5F82149C3EC00C19232 /* PasteboardExporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardExporterTests.swift; sourceTree = "<group>"; };
+		8400C5FA214A2B0200C19232 /* StringExporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExporterTests.swift; sourceTree = "<group>"; };
+		8400C5FD214A2C3300C19232 /* StaticFileNameGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFileNameGeneratorTests.swift; sourceTree = "<group>"; };
+		8400C5FF214A2CB100C19232 /* RandomFileNameGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFileNameGenerator.swift; sourceTree = "<group>"; };
+		8400C603214A31B100C19232 /* MockDataImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataImporter.swift; sourceTree = "<group>"; };
+		8400C605214A329800C19232 /* FileImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileImporterTests.swift; sourceTree = "<group>"; };
+		8400C607214A32A400C19232 /* PasteboardImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardImporterTests.swift; sourceTree = "<group>"; };
+		8400C609214A32B800C19232 /* UrlImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImporterTests.swift; sourceTree = "<group>"; };
+		8400C60C214A33D300C19232 /* QrCodeImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeImporterTests.swift; sourceTree = "<group>"; };
+		8400C60E214A4DA400C19232 /* StandardQrCodeGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardQrCodeGeneratorTests.swift; sourceTree = "<group>"; };
+		844FE2732148B7DD00CE7BD7 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		84B143F821463AC8001CE5D7 /* VandelayQr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VandelayQr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B143FA21463AC9001CE5D7 /* VandelayQr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VandelayQr.h; sourceTree = "<group>"; };
+		84B143FB21463AC9001CE5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D0A6CA214B968F00139AF6 /* SwiftyDropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyDropbox.framework; path = Carthage/Build/iOS/SwiftyDropbox.framework; sourceTree = "<group>"; };
+		84D0A6D4214B979900139AF6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		84D0A6E2214BED0300139AF6 /* DropboxExporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxExporterTests.swift; sourceTree = "<group>"; };
+		84D0A6E4214BED5500139AF6 /* DropboxImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxImporterTests.swift; sourceTree = "<group>"; };
+		84D0A6E6214BF57E00139AF6 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		84D0A6E8214BF67200139AF6 /* Accounts.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Accounts.plist; sourceTree = "<group>"; };
+		84D0A6F9214C5BA500139AF6 /* PhotoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoRepository.swift; sourceTree = "<group>"; };
+		84D0A6FA214C5BA500139AF6 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		84D0A6FB214C5BA500139AF6 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		84D0A6FC214C5BA500139AF6 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		84D0A6FE214C5BA500139AF6 /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		84D0A6FF214C5BA500139AF6 /* TodoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItemViewController.swift; sourceTree = "<group>"; };
+		84D0A700214C5BA500139AF6 /* TodoItemRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItemRepository.swift; sourceTree = "<group>"; };
+		84D0A702214C5BA500139AF6 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		84D0A70C214E9A7A00139AF6 /* ViewController+Export.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Export.swift"; sourceTree = "<group>"; };
+		84D0A70E214E9DF800139AF6 /* ViewController+Import.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Import.swift"; sourceTree = "<group>"; };
+		84F22D6C2148B184005DEC41 /* VandelayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VandelayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F22D6E2148B184005DEC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F22D702148B184005DEC41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84F22D732148B184005DEC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F22D752148B186005DEC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F22D782148B186005DEC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F22D7A2148B186005DEC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F22D9D2148B45F005DEC41 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		84F22D9F2148B45F005DEC41 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		84F22DA02148B45F005DEC41 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		84F22DA22148B460005DEC41 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		84F22DA32148B460005DEC41 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
+		84F22DA42148B461005DEC41 /* VandelayQr.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = VandelayQr.podspec; sourceTree = "<group>"; };
+		84F22DA52148B461005DEC41 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		84F22DA62148B461005DEC41 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84F22DA72148B461005DEC41 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8400C5D32149BC6900C19232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400C5E32149BC9800C19232 /* Nimble.framework in Frameworks */,
+				8400C5E42149BC9800C19232 /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B143F421463AC8001CE5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400C5B921491EDB00C19232 /* QRCodeReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F22D692148B184005DEC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D1A468215E6F9800EA1B89 /* VandelayQr.framework in Frameworks */,
+				84D1A45D215E6F7200EA1B89 /* Alamofire.framework in Frameworks */,
+				84D1A45E215E6F7200EA1B89 /* SwiftyDropbox.framework in Frameworks */,
+				84D1A46D215E700400EA1B89 /* QRCodeReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8400C5D72149BC6900C19232 /* VandelayTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D0A6E1214BECEF00139AF6 /* Dropbox */,
+				8400C5EA2149BD9A00C19232 /* Export */,
+				8400C5FC214A2BF400C19232 /* File */,
+				8400C601214A31A000C19232 /* Import */,
+				8400C5DA2149BC6900C19232 /* Info.plist */,
+				8400C60B214A33A000C19232 /* Qr */,
+			);
+			path = VandelayTests;
+			sourceTree = "<group>";
+		};
+		8400C5EA2149BD9A00C19232 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				8400C5EB2149BDA300C19232 /* Mocks */,
+				8400C5EE2149BEA000C19232 /* DataExporterTests.swift */,
+				8400C5F02149C10500C19232 /* EmailExporterTests.swift */,
+				8400C5F22149C1E900C19232 /* ExporterTests.swift */,
+				8400C5F42149C38C00C19232 /* FileExporterTests.swift */,
+				8400C5F62149C3BA00C19232 /* MessageExporterTests.swift */,
+				8400C5F82149C3EC00C19232 /* PasteboardExporterTests.swift */,
+				8400C5FA214A2B0200C19232 /* StringExporterTests.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		8400C5EB2149BDA300C19232 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8400C5EC2149BDAE00C19232 /* MockDataExporter.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		8400C5FC214A2BF400C19232 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				8400C5FD214A2C3300C19232 /* StaticFileNameGeneratorTests.swift */,
+				8400C5FF214A2CB100C19232 /* RandomFileNameGenerator.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		8400C601214A31A000C19232 /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				8400C602214A31A700C19232 /* Mock */,
+				8400C605214A329800C19232 /* FileImporterTests.swift */,
+				8400C607214A32A400C19232 /* PasteboardImporterTests.swift */,
+				8400C609214A32B800C19232 /* UrlImporterTests.swift */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		8400C602214A31A700C19232 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				8400C603214A31B100C19232 /* MockDataImporter.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		8400C60B214A33A000C19232 /* Qr */ = {
+			isa = PBXGroup;
+			children = (
+				8400C60C214A33D300C19232 /* QrCodeImporterTests.swift */,
+				8400C60E214A4DA400C19232 /* StandardQrCodeGeneratorTests.swift */,
+			);
+			path = Qr;
+			sourceTree = "<group>";
+		};
+		84B1436B21463A42001CE5D7 = {
+			isa = PBXGroup;
+			children = (
+				84B1444D21463D9D001CE5D7 /* Project Files */,
+				84B143F921463AC9001CE5D7 /* VandelayQr */,
+				84F22D6D2148B184005DEC41 /* VandelayExample */,
+				8400C5D72149BC6900C19232 /* VandelayTests */,
+				84B1437621463A42001CE5D7 /* Products */,
+				84F22D60214850AA005DEC41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84B1437621463A42001CE5D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B143F821463AC8001CE5D7 /* VandelayQr.framework */,
+				84F22D6C2148B184005DEC41 /* VandelayExample.app */,
+				8400C5D62149BC6900C19232 /* VandelayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B143F921463AC9001CE5D7 /* VandelayQr */ = {
+			isa = PBXGroup;
+			children = (
+				84B143FB21463AC9001CE5D7 /* Info.plist */,
+				8400C5C521491F8900C19232 /* QrCodeGenerator.swift */,
+				8400C5C821491F8900C19232 /* QrCodeImporter.swift */,
+				8400C5C621491F8900C19232 /* StandardQrCodeGenerator.swift */,
+				84B143FA21463AC9001CE5D7 /* VandelayQr.h */,
+			);
+			path = VandelayQr;
+			sourceTree = "<group>";
+		};
+		84B1444D21463D9D001CE5D7 /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F22DA52148B461005DEC41 /* .gitignore */,
+				84F22D9F2148B45F005DEC41 /* .swift-version */,
+				844FE2732148B7DD00CE7BD7 /* .swiftlint.yml */,
+				84F22DA02148B45F005DEC41 /* .travis.yml */,
+				84F22D9D2148B45F005DEC41 /* Cartfile */,
+				84F22DA32148B460005DEC41 /* Cartfile.private */,
+				84F22DA22148B460005DEC41 /* CHANGELOG.md */,
+				84F22DA72148B461005DEC41 /* LICENSE */,
+				84F22DA62148B461005DEC41 /* README.md */,
+				84F22DA42148B461005DEC41 /* VandelayQr.podspec */,
+			);
+			name = "Project Files";
+			sourceTree = "<group>";
+		};
+		84D0A6E1214BECEF00139AF6 /* Dropbox */ = {
+			isa = PBXGroup;
+			children = (
+				84D0A6E2214BED0300139AF6 /* DropboxExporterTests.swift */,
+				84D0A6E4214BED5500139AF6 /* DropboxImporterTests.swift */,
+			);
+			path = Dropbox;
+			sourceTree = "<group>";
+		};
+		84D0A6F8214C5BA500139AF6 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				84D0A6FA214C5BA500139AF6 /* Photo.swift */,
+				84D0A6FC214C5BA500139AF6 /* PhotoCollectionViewCell.swift */,
+				84D0A6F9214C5BA500139AF6 /* PhotoRepository.swift */,
+				84D0A6FB214C5BA500139AF6 /* PhotoViewController.swift */,
+				84D0A702214C5BA500139AF6 /* UIImage+Resize.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		84D0A6FD214C5BA500139AF6 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				84D0A6FE214C5BA500139AF6 /* TodoItem.swift */,
+				84D0A700214C5BA500139AF6 /* TodoItemRepository.swift */,
+				84D0A6FF214C5BA500139AF6 /* TodoItemViewController.swift */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		84F22D60214850AA005DEC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D0A6D4214B979900139AF6 /* Alamofire.framework */,
+				84D0A6CA214B968F00139AF6 /* SwiftyDropbox.framework */,
+				8400C5E12149BC9800C19232 /* Nimble.framework */,
+				8400C5E22149BC9800C19232 /* Quick.framework */,
+				8400C5B821491EDB00C19232 /* QRCodeReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F22D6D2148B184005DEC41 /* VandelayExample */ = {
+			isa = PBXGroup;
+			children = (
+				84D0A6F8214C5BA500139AF6 /* Photos */,
+				84D0A6FD214C5BA500139AF6 /* TodoList */,
+				84D0A6E8214BF67200139AF6 /* Accounts.plist */,
+				84D0A6E6214BF57E00139AF6 /* Accounts.swift */,
+				84F22D6E2148B184005DEC41 /* AppDelegate.swift */,
+				84F22D752148B186005DEC41 /* Assets.xcassets */,
+				84F22D7A2148B186005DEC41 /* Info.plist */,
+				84F22D772148B186005DEC41 /* LaunchScreen.storyboard */,
+				84F22D722148B184005DEC41 /* Main.storyboard */,
+				84F22D702148B184005DEC41 /* ViewController.swift */,
+				84D0A70C214E9A7A00139AF6 /* ViewController+Export.swift */,
+				84D0A70E214E9DF800139AF6 /* ViewController+Import.swift */,
+			);
+			path = VandelayExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84B143F521463AC8001CE5D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B1440821463AC9001CE5D7 /* VandelayQr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8400C5D52149BC6900C19232 /* VandelayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8400C5DE2149BC6900C19232 /* Build configuration list for PBXNativeTarget "VandelayTests" */;
+			buildPhases = (
+				8400C5D22149BC6900C19232 /* Sources */,
+				8400C5D32149BC6900C19232 /* Frameworks */,
+				8400C5D42149BC6900C19232 /* Resources */,
+				84D1A46F215E76A800EA1B89 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8400C5E92149BCFC00C19232 /* PBXTargetDependency */,
+			);
+			name = VandelayTests;
+			productName = VandelayTests;
+			productReference = 8400C5D62149BC6900C19232 /* VandelayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B143F721463AC8001CE5D7 /* VandelayQr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B1440921463AC9001CE5D7 /* Build configuration list for PBXNativeTarget "VandelayQr" */;
+			buildPhases = (
+				84B143F321463AC8001CE5D7 /* Sources */,
+				84B143F421463AC8001CE5D7 /* Frameworks */,
+				84B143F521463AC8001CE5D7 /* Headers */,
+				84B143F621463AC8001CE5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VandelayQr;
+			productName = VandelayQr;
+			productReference = 84B143F821463AC8001CE5D7 /* VandelayQr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84F22D6B2148B184005DEC41 /* VandelayExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F22D912148B186005DEC41 /* Build configuration list for PBXNativeTarget "VandelayExample" */;
+			buildPhases = (
+				84F22D682148B184005DEC41 /* Sources */,
+				84F22D692148B184005DEC41 /* Frameworks */,
+				84F22D6A2148B184005DEC41 /* Resources */,
+				84D1A46C215E6F9800EA1B89 /* Embed Frameworks */,
+				84D1A45F215E6F7C00EA1B89 /* [Carthage] Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D1A46B215E6F9800EA1B89 /* PBXTargetDependency */,
+			);
+			name = VandelayExample;
+			productName = VandelayExample;
+			productReference = 84F22D6C2148B184005DEC41 /* VandelayExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B1436C21463A42001CE5D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Daniel Saidi";
+				TargetAttributes = {
+					8400C5D52149BC6900C19232 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 84F22D6B2148B184005DEC41;
+					};
+					84B143F721463AC8001CE5D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+					84F22D6B2148B184005DEC41 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 84B1436F21463A42001CE5D7 /* Build configuration list for PBXProject "Vandelay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B1436B21463A42001CE5D7;
+			productRefGroup = 84B1437621463A42001CE5D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B143F721463AC8001CE5D7 /* VandelayQr */,
+				84F22D6B2148B184005DEC41 /* VandelayExample */,
+				8400C5D52149BC6900C19232 /* VandelayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8400C5D42149BC6900C19232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B143F621463AC8001CE5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F22D6A2148B184005DEC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0A6E9214BF67200139AF6 /* Accounts.plist in Resources */,
+				84F22D792148B186005DEC41 /* LaunchScreen.storyboard in Resources */,
+				84F22D762148B186005DEC41 /* Assets.xcassets in Resources */,
+				84F22D742148B184005DEC41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84D1A45F215E6F7C00EA1B89 /* [Carthage] Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyDropbox.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/QRCodeReader.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = "[Carthage] Copy Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyDropbox.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/QRCodeReader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8400C5D22149BC6900C19232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400C5ED2149BDAE00C19232 /* MockDataExporter.swift in Sources */,
+				8400C5F92149C3EC00C19232 /* PasteboardExporterTests.swift in Sources */,
+				8400C5EF2149BEA000C19232 /* DataExporterTests.swift in Sources */,
+				8400C60A214A32B800C19232 /* UrlImporterTests.swift in Sources */,
+				8400C5FE214A2C3300C19232 /* StaticFileNameGeneratorTests.swift in Sources */,
+				8400C5F72149C3BA00C19232 /* MessageExporterTests.swift in Sources */,
+				8400C5F12149C10500C19232 /* EmailExporterTests.swift in Sources */,
+				8400C606214A329800C19232 /* FileImporterTests.swift in Sources */,
+				8400C604214A31B100C19232 /* MockDataImporter.swift in Sources */,
+				8400C5F52149C38C00C19232 /* FileExporterTests.swift in Sources */,
+				8400C5FB214A2B0200C19232 /* StringExporterTests.swift in Sources */,
+				8400C60D214A33D300C19232 /* QrCodeImporterTests.swift in Sources */,
+				84D0A6E5214BED5500139AF6 /* DropboxImporterTests.swift in Sources */,
+				8400C600214A2CB100C19232 /* RandomFileNameGenerator.swift in Sources */,
+				84D0A6E3214BED0300139AF6 /* DropboxExporterTests.swift in Sources */,
+				8400C608214A32A400C19232 /* PasteboardImporterTests.swift in Sources */,
+				8400C60F214A4DA400C19232 /* StandardQrCodeGeneratorTests.swift in Sources */,
+				8400C5F32149C1E900C19232 /* ExporterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B143F321463AC8001CE5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400C5CA21491F8A00C19232 /* StandardQrCodeGenerator.swift in Sources */,
+				8400C5C921491F8900C19232 /* QrCodeGenerator.swift in Sources */,
+				8400C5CB21491F8A00C19232 /* QrCodeImporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F22D682148B184005DEC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0A70F214E9DF800139AF6 /* ViewController+Import.swift in Sources */,
+				84D0A6E7214BF57E00139AF6 /* Accounts.swift in Sources */,
+				84F22D712148B184005DEC41 /* ViewController.swift in Sources */,
+				84D0A703214C5BA600139AF6 /* PhotoRepository.swift in Sources */,
+				84F22D6F2148B184005DEC41 /* AppDelegate.swift in Sources */,
+				84D0A706214C5BA600139AF6 /* PhotoCollectionViewCell.swift in Sources */,
+				84D0A70A214C5BA600139AF6 /* UIImage+Resize.swift in Sources */,
+				84D0A704214C5BA600139AF6 /* Photo.swift in Sources */,
+				84D0A708214C5BA600139AF6 /* TodoItemViewController.swift in Sources */,
+				84D0A707214C5BA600139AF6 /* TodoItem.swift in Sources */,
+				84D0A709214C5BA600139AF6 /* TodoItemRepository.swift in Sources */,
+				84D0A70D214E9A7A00139AF6 /* ViewController+Export.swift in Sources */,
+				84D0A705214C5BA600139AF6 /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8400C5E92149BCFC00C19232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F22D6B2148B184005DEC41 /* VandelayExample */;
+			targetProxy = 8400C5E82149BCFC00C19232 /* PBXContainerItemProxy */;
+		};
+		84D1A46B215E6F9800EA1B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B143F721463AC8001CE5D7 /* VandelayQr */;
+			targetProxy = 84D1A46A215E6F9800EA1B89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84F22D722148B184005DEC41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F22D732148B184005DEC41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84F22D772148B186005DEC41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F22D782148B186005DEC41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8400C5DF2149BC6900C19232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VandelayExample.app/VandelayExample";
+			};
+			name = Debug;
+		};
+		8400C5E02149BC6900C19232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VandelayExample.app/VandelayExample";
+			};
+			name = Release;
+		};
+		84B1438721463A42001CE5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.7.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84B1438821463A42001CE5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.7.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84B1440A21463AC9001CE5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 0.7.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayQr/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQr;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B1440B21463AC9001CE5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 0.7.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayQr/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQr;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84F22D922148B186005DEC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F22D932148B186005DEC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VandelayExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8400C5DE2149BC6900C19232 /* Build configuration list for PBXNativeTarget "VandelayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8400C5DF2149BC6900C19232 /* Debug */,
+				8400C5E02149BC6900C19232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B1436F21463A42001CE5D7 /* Build configuration list for PBXProject "Vandelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B1438721463A42001CE5D7 /* Debug */,
+				84B1438821463A42001CE5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B1440921463AC9001CE5D7 /* Build configuration list for PBXNativeTarget "VandelayQr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B1440A21463AC9001CE5D7 /* Debug */,
+				84B1440B21463AC9001CE5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F22D912148B186005DEC41 /* Build configuration list for PBXNativeTarget "VandelayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F22D922148B186005DEC41 /* Debug */,
+				84F22D932148B186005DEC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B1436C21463A42001CE5D7 /* Project object */;
+}
