@@ -60,9 +60,9 @@ If you add `VandelayQr`, you get access to the following importer:
 
 To use this feature, make sure to specify a `NSCameraUsageDescription`
 text in Info.plist. Otherwise, the app will crash. Also make sure that
-the app can access the scanned url. The demo does this by allowing any
-urls to be imported. In a real world app, allowing arbitary urls isn't
-probably a good idea :)
+the app can fetch the scanned url, by configuring the app `Info.plist`
+`NSAppTransportSecurity` setting. The app has `NSAllowsArbitraryLoads`
+set to `true`. For real world apps, this is considered a bad practice.
 
 
 ## Example Project
