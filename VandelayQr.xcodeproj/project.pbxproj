@@ -39,6 +39,7 @@
 		8424BDF421639EBC002CAB64 /* TodoItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDEC21639EBC002CAB64 /* TodoItemRepository.swift */; };
 		8424BDFB2163A5E7002CAB64 /* ViewController+Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDF92163A5E7002CAB64 /* ViewController+Export.swift */; };
 		8424BDFC2163A5E7002CAB64 /* ViewController+Import.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDFA2163A5E7002CAB64 /* ViewController+Import.swift */; };
+		84AB537F216410A200F8C7F1 /* Vandelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDE121639E8C002CAB64 /* Vandelay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AB537F216410A200F8C7F1 /* Vandelay.framework in Frameworks */,
 				8424BDCC21639BD0002CAB64 /* QRCodeReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,8 +162,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8424BDE221639E8C002CAB64 /* Vandelay.framework in Frameworks */,
 				8424BDE021639E8B002CAB64 /* QRCodeReader.framework in Frameworks */,
+				8424BDE221639E8C002CAB64 /* Vandelay.framework in Frameworks */,
 				8424BDDA21639D90002CAB64 /* VandelayQr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +345,7 @@
 				8424BDAD21638234002CAB64 /* Frameworks */,
 				8424BDAE21638234002CAB64 /* Resources */,
 				8424BDDE21639D90002CAB64 /* Embed Frameworks */,
-				8424BDDF21639DCF002CAB64 /* [Carthage Copy Files] */,
+				8424BDDF21639DCF002CAB64 /* [Carthage] Copy Files */,
 			);
 			buildRules = (
 			);
@@ -427,7 +429,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8424BDDF21639DCF002CAB64 /* [Carthage Copy Files] */ = {
+		8424BDDF21639DCF002CAB64 /* [Carthage] Copy Files */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,7 +440,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Vandelay.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/QRCodeReader.framework",
 			);
-			name = "[Carthage Copy Files]";
+			name = "[Carthage] Copy Files";
 			outputFileListPaths = (
 			);
 			outputPaths = (
