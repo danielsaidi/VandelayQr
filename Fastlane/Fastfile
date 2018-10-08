@@ -20,6 +20,8 @@ platform :ios do
     git_commit(
       path: [
         "VandelayQr.podspec",
+        "*/Info.plist",
+        "*/*.pbxproj",
         "Fastlane/"],
       message: "Bump to #{version}"
     )
