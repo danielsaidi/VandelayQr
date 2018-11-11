@@ -40,7 +40,8 @@ run `pod install`:
 pod "VandelayQr"
 ```
 
-This will also install [Vandelay](vandelay) and [QRCodeReader](qrcodereader).
+This also installs [Vandelay](vandelay) and [QRCodeReader](qrcodereader)
+since they are required by `VandelayQr`.
 
 ### Carthage
 
@@ -51,8 +52,8 @@ run `carthage update --platform iOS`:
 github "danielsaidi/Vandelay"
 ```
 
-This also builds [Vandelay](vandelay) and [QRCodeReader](qrcodereader).
-You must add all three frameworks to your app.
+This also builds [Vandelay](vandelay) and [QRCodeReader](qrcodereader),
+since they are required by `VandelayQr`. You must add them to your app.
 
 
 ## Exporting data
@@ -77,14 +78,8 @@ set to `true`. For real world apps, this is considered a bad practice.
 
 ## Example Project
 
-Before you can run the example app, you have to install `Carthage` and
-run `carthage update --platform iOS`. This will setup all dependencies
-and prepare the app. You can then open the project and run the app.
-
-For QR codes, you can use the built-in `QrCodeGenerator` to generate a
-scannable QR code for any url you have exported data to, e.g. by using
-the [Vandelay](vandelay) example project. You can then run the example
-project from your phone and scan that code to import data into the app.
+The main [Vandelay](vandelay) repository contains an example app, that
+shows you how to use the QR code support.
 
 
 ## Versioning
