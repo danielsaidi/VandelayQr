@@ -20,20 +20,6 @@
                ReferencedContainer = "container:VandelayQr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8424BDAF21638234002CAB64"
-               BuildableName = "VandelayQrExample.app"
-               BlueprintName = "VandelayQrExample"
-               ReferencedContainer = "container:VandelayQr.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -56,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8424BD73216381F4002CAB64"
-            BuildableName = "VandelayQr.framework"
-            BlueprintName = "VandelayQr"
+            BlueprintIdentifier = "8424BDAF21638234002CAB64"
+            BuildableName = "VandelayQrExample.app"
+            BlueprintName = "VandelayQrExample"
             ReferencedContainer = "container:VandelayQr.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,16 +61,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8424BDAF21638234002CAB64"
-            BuildableName = "VandelayQrExample.app"
-            BlueprintName = "VandelayQrExample"
-            ReferencedContainer = "container:VandelayQr.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

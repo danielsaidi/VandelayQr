@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8413991A21989970007AFADF /* Vandelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8424BDE121639E8C002CAB64 /* Vandelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8413991B21989970007AFADF /* QRCodeReader.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8424BDCB21639BD0002CAB64 /* QRCodeReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8424BD7E216381F4002CAB64 /* VandelayQr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BD74216381F4002CAB64 /* VandelayQr.framework */; };
 		8424BD85216381F4002CAB64 /* VandelayQr.h in Headers */ = {isa = PBXBuildFile; fileRef = 8424BD77216381F4002CAB64 /* VandelayQr.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8424BDB321638234002CAB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDB221638234002CAB64 /* AppDelegate.swift */; };
-		8424BDB521638234002CAB64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDB421638234002CAB64 /* ViewController.swift */; };
-		8424BDB821638234002CAB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8424BDB621638234002CAB64 /* Main.storyboard */; };
-		8424BDBA21638235002CAB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8424BDB921638235002CAB64 /* Assets.xcassets */; };
-		8424BDBD21638235002CAB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8424BDBB21638235002CAB64 /* LaunchScreen.storyboard */; };
 		8424BDC7216385E0002CAB64 /* QrCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDC4216385E0002CAB64 /* QrCodeGenerator.swift */; };
 		8424BDC8216385E0002CAB64 /* QrCodeImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDC5216385E0002CAB64 /* QrCodeImporter.swift */; };
 		8424BDC9216385E0002CAB64 /* StandardQrCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDC6216385E0002CAB64 /* StandardQrCodeGenerator.swift */; };
@@ -25,39 +22,11 @@
 		8424BDD721639D66002CAB64 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDD521639D66002CAB64 /* Quick.framework */; };
 		8424BDD821639D6C002CAB64 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8424BDD421639D65002CAB64 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8424BDD921639D6C002CAB64 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8424BDD521639D66002CAB64 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8424BDDA21639D90002CAB64 /* VandelayQr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BD74216381F4002CAB64 /* VandelayQr.framework */; };
-		8424BDDB21639D90002CAB64 /* VandelayQr.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BD74216381F4002CAB64 /* VandelayQr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8424BDE021639E8B002CAB64 /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDCB21639BD0002CAB64 /* QRCodeReader.framework */; };
-		8424BDE221639E8C002CAB64 /* Vandelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDE121639E8C002CAB64 /* Vandelay.framework */; };
-		8424BDED21639EBC002CAB64 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE421639EBC002CAB64 /* UIImage+Resize.swift */; };
-		8424BDEE21639EBC002CAB64 /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE521639EBC002CAB64 /* PhotoRepository.swift */; };
-		8424BDEF21639EBC002CAB64 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE621639EBC002CAB64 /* Photo.swift */; };
-		8424BDF021639EBC002CAB64 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE721639EBC002CAB64 /* PhotoViewController.swift */; };
-		8424BDF121639EBC002CAB64 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDE821639EBC002CAB64 /* PhotoCollectionViewCell.swift */; };
-		8424BDF221639EBC002CAB64 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDEA21639EBC002CAB64 /* TodoItem.swift */; };
-		8424BDF321639EBC002CAB64 /* TodoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDEB21639EBC002CAB64 /* TodoItemViewController.swift */; };
-		8424BDF421639EBC002CAB64 /* TodoItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDEC21639EBC002CAB64 /* TodoItemRepository.swift */; };
-		8424BDFB2163A5E7002CAB64 /* ViewController+Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDF92163A5E7002CAB64 /* ViewController+Export.swift */; };
-		8424BDFC2163A5E7002CAB64 /* ViewController+Import.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424BDFA2163A5E7002CAB64 /* ViewController+Import.swift */; };
 		84AB537F216410A200F8C7F1 /* Vandelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424BDE121639E8C002CAB64 /* Vandelay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		8424BD7F216381F4002CAB64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8424BD6B216381F4002CAB64 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8424BD73216381F4002CAB64;
-			remoteInfo = VandelayQr;
-		};
-		8424BDC2216383ED002CAB64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8424BD6B216381F4002CAB64 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8424BDAF21638234002CAB64;
-			remoteInfo = VandelayQrExample;
-		};
-		8424BDDC21639D90002CAB64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8424BD6B216381F4002CAB64 /* Project object */;
 			proxyType = 1;
@@ -73,20 +42,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				8413991A21989970007AFADF /* Vandelay.framework in CopyFiles */,
+				8413991B21989970007AFADF /* QRCodeReader.framework in CopyFiles */,
 				8424BDD821639D6C002CAB64 /* Nimble.framework in CopyFiles */,
 				8424BDD921639D6C002CAB64 /* Quick.framework in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8424BDDE21639D90002CAB64 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8424BDDB21639D90002CAB64 /* VandelayQr.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -97,13 +57,6 @@
 		8424BD78216381F4002CAB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8424BD7D216381F4002CAB64 /* VandelayQrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VandelayQrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8424BD84216381F4002CAB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8424BDB021638234002CAB64 /* VandelayQrExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VandelayQrExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8424BDB221638234002CAB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8424BDB421638234002CAB64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8424BDB721638234002CAB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8424BDB921638235002CAB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8424BDBC21638235002CAB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8424BDBE21638235002CAB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8424BDC4216385E0002CAB64 /* QrCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeGenerator.swift; sourceTree = "<group>"; };
 		8424BDC5216385E0002CAB64 /* QrCodeImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeImporter.swift; sourceTree = "<group>"; };
 		8424BDC6216385E0002CAB64 /* StandardQrCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardQrCodeGenerator.swift; sourceTree = "<group>"; };
@@ -114,16 +67,6 @@
 		8424BDD421639D65002CAB64 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		8424BDD521639D66002CAB64 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		8424BDE121639E8C002CAB64 /* Vandelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vandelay.framework; path = Carthage/Build/iOS/Vandelay.framework; sourceTree = "<group>"; };
-		8424BDE421639EBC002CAB64 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
-		8424BDE521639EBC002CAB64 /* PhotoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoRepository.swift; sourceTree = "<group>"; };
-		8424BDE621639EBC002CAB64 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
-		8424BDE721639EBC002CAB64 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
-		8424BDE821639EBC002CAB64 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		8424BDEA21639EBC002CAB64 /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
-		8424BDEB21639EBC002CAB64 /* TodoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItemViewController.swift; sourceTree = "<group>"; };
-		8424BDEC21639EBC002CAB64 /* TodoItemRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItemRepository.swift; sourceTree = "<group>"; };
-		8424BDF92163A5E7002CAB64 /* ViewController+Export.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Export.swift"; sourceTree = "<group>"; };
-		8424BDFA2163A5E7002CAB64 /* ViewController+Import.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Import.swift"; sourceTree = "<group>"; };
 		84AB53192164066C00F8C7F1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		84AB531A2164066C00F8C7F1 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		84AB531B2164066C00F8C7F1 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
@@ -143,8 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84AB537F216410A200F8C7F1 /* Vandelay.framework in Frameworks */,
 				8424BDCC21639BD0002CAB64 /* QRCodeReader.framework in Frameworks */,
+				84AB537F216410A200F8C7F1 /* Vandelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,16 +101,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8424BDAD21638234002CAB64 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8424BDE021639E8B002CAB64 /* QRCodeReader.framework in Frameworks */,
-				8424BDE221639E8C002CAB64 /* Vandelay.framework in Frameworks */,
-				8424BDDA21639D90002CAB64 /* VandelayQr.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -176,7 +109,6 @@
 			children = (
 				8424BD76216381F4002CAB64 /* VandelayQr */,
 				8424BD81216381F4002CAB64 /* VandelayQrTests */,
-				8424BDB121638234002CAB64 /* VandelayQrExample */,
 				8424BD75216381F4002CAB64 /* Products */,
 				84AB53182164065700F8C7F1 /* Project Files */,
 				8424BDCA21639BD0002CAB64 /* Frameworks */,
@@ -188,7 +120,6 @@
 			children = (
 				8424BD74216381F4002CAB64 /* VandelayQr.framework */,
 				8424BD7D216381F4002CAB64 /* VandelayQrTests.xctest */,
-				8424BDB021638234002CAB64 /* VandelayQrExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,23 +147,6 @@
 			path = VandelayQrTests;
 			sourceTree = "<group>";
 		};
-		8424BDB121638234002CAB64 /* VandelayQrExample */ = {
-			isa = PBXGroup;
-			children = (
-				8424BDB221638234002CAB64 /* AppDelegate.swift */,
-				8424BDB921638235002CAB64 /* Assets.xcassets */,
-				8424BDBE21638235002CAB64 /* Info.plist */,
-				8424BDBB21638235002CAB64 /* LaunchScreen.storyboard */,
-				8424BDB621638234002CAB64 /* Main.storyboard */,
-				8424BDE321639EBC002CAB64 /* Photos */,
-				8424BDE921639EBC002CAB64 /* TodoList */,
-				8424BDB421638234002CAB64 /* ViewController.swift */,
-				8424BDF92163A5E7002CAB64 /* ViewController+Export.swift */,
-				8424BDFA2163A5E7002CAB64 /* ViewController+Import.swift */,
-			);
-			path = VandelayQrExample;
-			sourceTree = "<group>";
-		};
 		8424BDCA21639BD0002CAB64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,28 +156,6 @@
 				8424BDCB21639BD0002CAB64 /* QRCodeReader.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8424BDE321639EBC002CAB64 /* Photos */ = {
-			isa = PBXGroup;
-			children = (
-				8424BDE421639EBC002CAB64 /* UIImage+Resize.swift */,
-				8424BDE521639EBC002CAB64 /* PhotoRepository.swift */,
-				8424BDE621639EBC002CAB64 /* Photo.swift */,
-				8424BDE721639EBC002CAB64 /* PhotoViewController.swift */,
-				8424BDE821639EBC002CAB64 /* PhotoCollectionViewCell.swift */,
-			);
-			path = Photos;
-			sourceTree = "<group>";
-		};
-		8424BDE921639EBC002CAB64 /* TodoList */ = {
-			isa = PBXGroup;
-			children = (
-				8424BDEA21639EBC002CAB64 /* TodoItem.swift */,
-				8424BDEB21639EBC002CAB64 /* TodoItemViewController.swift */,
-				8424BDEC21639EBC002CAB64 /* TodoItemRepository.swift */,
-			);
-			path = TodoList;
 			sourceTree = "<group>";
 		};
 		84AB53182164065700F8C7F1 /* Project Files */ = {
@@ -307,6 +199,7 @@
 				8424BD70216381F4002CAB64 /* Sources */,
 				8424BD71216381F4002CAB64 /* Frameworks */,
 				8424BD72216381F4002CAB64 /* Resources */,
+				841399192198990F007AFADF /* [Carthage] Copy FIles */,
 			);
 			buildRules = (
 			);
@@ -330,32 +223,11 @@
 			);
 			dependencies = (
 				8424BD80216381F4002CAB64 /* PBXTargetDependency */,
-				8424BDC3216383ED002CAB64 /* PBXTargetDependency */,
 			);
 			name = VandelayQrTests;
 			productName = VandelayQrTests;
 			productReference = 8424BD7D216381F4002CAB64 /* VandelayQrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8424BDAF21638234002CAB64 /* VandelayQrExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8424BDBF21638235002CAB64 /* Build configuration list for PBXNativeTarget "VandelayQrExample" */;
-			buildPhases = (
-				8424BDAC21638234002CAB64 /* Sources */,
-				8424BDAD21638234002CAB64 /* Frameworks */,
-				8424BDAE21638234002CAB64 /* Resources */,
-				8424BDDE21639D90002CAB64 /* Embed Frameworks */,
-				8424BDDF21639DCF002CAB64 /* [Carthage] Copy Files */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8424BDDD21639D90002CAB64 /* PBXTargetDependency */,
-			);
-			name = VandelayQrExample;
-			productName = VandelayQrExample;
-			productReference = 8424BDB021638234002CAB64 /* VandelayQrExample.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -374,10 +246,6 @@
 					8424BD7C216381F4002CAB64 = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
-						TestTargetID = 8424BDAF21638234002CAB64;
-					};
-					8424BDAF21638234002CAB64 = {
-						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
@@ -396,7 +264,6 @@
 			targets = (
 				8424BD73216381F4002CAB64 /* VandelayQr */,
 				8424BD7C216381F4002CAB64 /* VandelayQrTests */,
-				8424BDAF21638234002CAB64 /* VandelayQrExample */,
 			);
 		};
 /* End PBXProject section */
@@ -416,20 +283,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8424BDAE21638234002CAB64 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8424BDBD21638235002CAB64 /* LaunchScreen.storyboard in Resources */,
-				8424BDBA21638235002CAB64 /* Assets.xcassets in Resources */,
-				8424BDB821638234002CAB64 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8424BDDF21639DCF002CAB64 /* [Carthage] Copy Files */ = {
+		841399192198990F007AFADF /* [Carthage] Copy FIles */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,15 +294,15 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Vandelay.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/QRCodeReader.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Vandelay.framework",
 			);
-			name = "[Carthage] Copy Files";
+			name = "[Carthage] Copy FIles";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Vandelay.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/QRCodeReader.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Vandelay.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -474,25 +331,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8424BDAC21638234002CAB64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8424BDB521638234002CAB64 /* ViewController.swift in Sources */,
-				8424BDB321638234002CAB64 /* AppDelegate.swift in Sources */,
-				8424BDEE21639EBC002CAB64 /* PhotoRepository.swift in Sources */,
-				8424BDED21639EBC002CAB64 /* UIImage+Resize.swift in Sources */,
-				8424BDF121639EBC002CAB64 /* PhotoCollectionViewCell.swift in Sources */,
-				8424BDEF21639EBC002CAB64 /* Photo.swift in Sources */,
-				8424BDF321639EBC002CAB64 /* TodoItemViewController.swift in Sources */,
-				8424BDFC2163A5E7002CAB64 /* ViewController+Import.swift in Sources */,
-				8424BDFB2163A5E7002CAB64 /* ViewController+Export.swift in Sources */,
-				8424BDF221639EBC002CAB64 /* TodoItem.swift in Sources */,
-				8424BDF421639EBC002CAB64 /* TodoItemRepository.swift in Sources */,
-				8424BDF021639EBC002CAB64 /* PhotoViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -501,36 +339,7 @@
 			target = 8424BD73216381F4002CAB64 /* VandelayQr */;
 			targetProxy = 8424BD7F216381F4002CAB64 /* PBXContainerItemProxy */;
 		};
-		8424BDC3216383ED002CAB64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8424BDAF21638234002CAB64 /* VandelayQrExample */;
-			targetProxy = 8424BDC2216383ED002CAB64 /* PBXContainerItemProxy */;
-		};
-		8424BDDD21639D90002CAB64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8424BD73216381F4002CAB64 /* VandelayQr */;
-			targetProxy = 8424BDDC21639D90002CAB64 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8424BDB621638234002CAB64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8424BDB721638234002CAB64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8424BDBB21638235002CAB64 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8424BDBC21638235002CAB64 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8424BD86216381F4002CAB64 /* Debug */ = {
@@ -719,7 +528,6 @@
 		8424BD8C216381F4002CAB64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PMEDFW438U;
@@ -738,14 +546,12 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VandelayQrExample.app/VandelayQrExample";
 			};
 			name = Debug;
 		};
 		8424BD8D216381F4002CAB64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PMEDFW438U;
@@ -760,53 +566,6 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQrTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VandelayQrExample.app/VandelayQrExample";
-			};
-			name = Release;
-		};
-		8424BDC021638235002CAB64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PMEDFW438U;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = VandelayQrExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQrExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8424BDC121638235002CAB64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PMEDFW438U;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = VandelayQrExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQrExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -839,15 +598,6 @@
 			buildConfigurations = (
 				8424BD8C216381F4002CAB64 /* Debug */,
 				8424BD8D216381F4002CAB64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8424BDBF21638235002CAB64 /* Build configuration list for PBXNativeTarget "VandelayQrExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8424BDC021638235002CAB64 /* Debug */,
-				8424BDC121638235002CAB64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
