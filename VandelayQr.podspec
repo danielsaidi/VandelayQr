@@ -18,6 +18,6 @@ data by scanning QR codes.
 
   s.source_files = 'VandelayQr/**/*.{swift}'
   
-  s.dependency 'Vandelay', '0.7.2'
+  s.dependency 'Vandelay', '0.8.1'
   s.dependency 'QRCodeReader.swift'
 end

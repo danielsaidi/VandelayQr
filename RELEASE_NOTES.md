@@ -1,6 +1,17 @@
 # Vandelay Changelog
 
 
+## 0.8.0
+
+This version moves stuff around between Vandelay and its add-ons. This
+means that I have had some trial and error getting it to work, but the
+`0.8.0` version works with both CocoaPods and Carthage.
+
+The biggest change in this version, is that this library no longer has
+an example app, since it caused a lot of code duplication. I moved the
+code to the main repo.
+
+
 ## 0.7.2
 
 This version is just published to conform to Vandelay 0.7.2. It splits
