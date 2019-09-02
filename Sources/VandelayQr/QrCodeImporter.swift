@@ -6,8 +6,12 @@
 //  Copyright © 2016 Daniel Saidi. All rights reserved.
 //
 
-/*
- 
+import Foundation
+import UIKit
+import QRCodeReader
+import Vandelay
+
+/**
  This importer can import strings and data by scanning codes
  that contain embedded urls.
  
@@ -23,12 +27,7 @@
  Otherwise, your app will crash. You must also give it valid
  permissions to request external urls, if the user should be
  able to scan QR codes that contain external urls.
- 
  */
-
-import QRCodeReader
-import Vandelay
-
 public class QrCodeImporter: DataImporter, StringImporter {
     
     

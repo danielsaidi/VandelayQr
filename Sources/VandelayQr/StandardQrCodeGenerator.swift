@@ -8,8 +8,14 @@
 //  Copyright © 2016 Daniel Saidi. All rights reserved.
 //
 
-import UIKit
+import Foundation
+import CoreGraphics
+import CoreImage
 
+/**
+ This is a standard implementation of the `QrCodeGenerator`
+ protocol. It uses `CoreImage` to generate images for urls.
+ */
 public class StandardQrCodeGenerator: QrCodeGenerator {
     
     
@@ -36,17 +42,18 @@ public class StandardQrCodeGenerator: QrCodeGenerator {
     
     // MARK: - Functions
     
-    public func generateQrCode(with url: URL) throws -> UIImage {
+    public func generateQrCode(with url: URL) throws -> CGImage {
         return try generateQrCode(with: url.absoluteString)
     }
     
-    public func generateQrCode(with urlString: String) throws -> UIImage {
+    public func generateQrCode(with urlString: String) throws -> CGImage {
         guard let filter = CIFilter(name: "CIQRCodeGenerator") else { throw GeneratorError.unavailableCiFilter }
         let data = urlString.data(using: .ascii)
         filter.setValue(data, forKey: "inputMessage")
         let cgScale = CGFloat(scale)
         let transform = CGAffineTransform(scaleX: cgScale, y: cgScale)
         guard let output = filter.outputImage?.transformed(by: transform) else { throw GeneratorError.emptyTransformResult }
-        return UIImage(ciImage: output)
+        let context = CIContext(options: nil)
+        return context.createCGImage(output, from: output.extent)!
     }
 }

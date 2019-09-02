@@ -8,14 +8,14 @@
 
 import Quick
 import Nimble
-import Vandelay
 import VandelayQr
+import UIKit
 
 class QrCodeImporterTests: QuickSpec {
     
     override func spec() {
         
-        var importer: Importer!
+        var importer: QrCodeImporter!
         
         beforeEach {
             importer = QrCodeImporter(fromViewController: UIViewController())

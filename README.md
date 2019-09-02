@@ -1,20 +1,13 @@
 <p align="center">
-    <img src ="Assets/logo-900.png" width="450" alt="Vandelay logo" />
+    <img src ="Resources/Logo-540.png" width="540" alt="VandelayQr logo" />
 </p>
 
 <p align="center">
     <a href="https://github.com/danielsaidi/VandelayQr">
         <img src="https://badge.fury.io/gh/danielsaidi%2FVandelayQr.svg?style=flat" alt="Version" />
     </a>
-    <img src="https://api.travis-ci.org/danielsaidi/VandelayQr.svg" alt="Build Status" />
-    <a href="https://cocoapods.org/pods/VandelayQr">
-        <img src="https://img.shields.io/cocoapods/v/VandelayQr.svg?style=flat" alt="CocoaPods" />
-    </a>
-    <a href="https://github.com/Carthage/Carthage">
-        <img src="https://img.shields.io/badge/carthage-supported-green.svg?style=flat" alt="Carthage" />
-    </a>
     <img src="https://img.shields.io/cocoapods/p/VandelayQr.svg?style=flat" alt="Platform" />
-    <img src="https://img.shields.io/badge/Swift-4.2-orange.svg" alt="Swift 4.2" />
+    <img src="https://img.shields.io/badge/Swift-5.1-orange.svg" alt="Swift 5.1" />
     <img src="https://badges.frapsoft.com/os/mit/mit.svg?style=flat&v=102" alt="License" />
     <a href="https://twitter.com/danielsaidi">
         <img src="https://img.shields.io/badge/contact-@danielsaidi-blue.svg?style=flat" alt="Twitter: @danielsaidi" />
@@ -24,83 +17,74 @@
 
 ## About
 
-VandelayQr adds QR code support to [Vandelay](vandelay). It includes a
-QR code importer that can import strings and data by scanning QR codes.
-It also has a class that can create QR code images from URLs.
+VandelayQr adds QR code support to [Vandelay][Vandelay]. It adds a `QrCodeImporter` that can import strings and data by scanning QR codes. 
+
+VandelayQr also provides a class that can create QR code images from any URL.
 
 
 ## Installation
 
-### Cocoapods
+### Swift Package Manager
 
-If you use [CocoaPods](cocoapods), add this line to your `Podfile` and
-run `pod install`:
+The easiest way to add VandelayQr to your project is to use Swift Package Manager:
+```
+.package(url: "git@github.com:danielsaidi/VandelayQr.git" ...)
+```
+
+### Cocoapods
 
 ```ruby
 pod "VandelayQr"
 ```
 
-This also installs [Vandelay](vandelay) and [QRCodeReader](qrcodereader)
-since they are required by `VandelayQr`.
-
 ### Carthage
-
-If you use [Carthage](carthage), add this line to your `Cartfile` then
-run `carthage update --platform iOS`:
 
 ```ruby
 github "danielsaidi/Vandelay"
 ```
 
-This also builds [Vandelay](vandelay) and [QRCodeReader](qrcodereader),
-since they are required by `VandelayQr`. You must add them to your app.
-
 
 ## Exporting data
 
-VandelayQR has no data exporters, but you can use the `QrCodeGenerator`
-protocol and `StandardQrCodeGenerator` implementation to create images
-of QR codes, that refer to urls that contain importable data.
+VandelayQR has no data exporters, but you can use the `QrCodeGenerator` protocol and `StandardQrCodeGenerator` implementation to create QR code images with urls that contain importable data.
 
 
 ## Importing data
 
 If you add `VandelayQr`, you get access to the following importer:
 
-- `QrCodeImporter` - imports `strings` & `data` by scanning QR codes
+- `QrCodeImporter` - imports `strings` and `data` by scanning QR codes
 
-To use this feature, make sure to specify a `NSCameraUsageDescription`
-text in Info.plist. Otherwise, the app will crash. Also make sure that
-the app can fetch the scanned url, by configuring the app `Info.plist`
-`NSAppTransportSecurity` setting. The app has `NSAllowsArbitraryLoads`
-set to `true`. For real world apps, this is considered a bad practice.
+To use this feature, make sure to specify a `NSCameraUsageDescription` text in `Info.plist`. Otherwise, the app will crash.
+
+Also configure `NSAppTransportSecurity` in `Info.plist` to make sure that the app can fetch the scanned url. The demo app has `NSAllowsArbitraryLoads` set to `true`. For real world apps, this is considered a bad practice.
 
 
-## Example Project
+## Demo App
 
-The main [Vandelay](vandelay) repository contains an example app, that
-shows you how to use the QR code support.
-
-
-## Versioning
-
-Versions < 1.0.0 will have breaking changes between minor versions, so
-VandelayQr 0.8.0 will probably not be compatible with 0.7.0 etc.
+This repo contains a demo app that lets you import data by scanning a QR code. To run the demo app, open and run the `VandelayQr.xcodeproj` project.
 
 
-## Author
+## Contact me
 
-Daniel Saidi, daniel.saidi@gmail.com
+I hope you like this library. Feel free to reach out if you have questions or if
+you want to contribute in any way:
+
+* E-mail: [daniel.saidi@gmail.com][Email]
+* Twitter: [@danielsaidi][Twitter]
+* Web site: [danielsaidi.com][Website]
 
 
 ## License
 
-VandelayQr is available under the MIT license. See the LICENSE file for more info.
+Vandelay is available under the MIT license. See the LICENSE file for more info.
 
+[Email]: mailto:daniel.saidi@gmail.com
+[Twitter]: http://www.twitter.com/danielsaidi
+[Website]: http://www.danielsaidi.com
 
-[carthage]: https://github.com/Carthage
-[cocoapods]: http://cocoapods.org
-[github]: https://github.com/danielsaidi/VandelayQr
-[pod]: http://cocoapods.org/pods/VandelayQr
-[qrcodereader]: https://github.com/yannickl/QRCodeReader.swift
-[vandelay]: https://github.com/danielsaidi/Vandelay
+[Vandelay]: https://github.com/danielsaidi/Vandelay
+[VandelayDropbox]: https://github.com/danielsaidi/VandelayDropbox
+[VandelayQR]: https://github.com/danielsaidi/VandelayQr
+
+[License]: https://github.com/danielsaidi/Vandelay/blob/master/LICENSE

@@ -9,8 +9,12 @@
 import Vandelay
 
 public extension ImportMethod {
-    
-    public static var qrCode: ImportMethod {
+
+    /**
+     This property extends the `ImportMethod` enum with a QR
+     specific method.
+    */
+    static var qrCode: ImportMethod {
         return .custom(name: "qr")
     }
 }
