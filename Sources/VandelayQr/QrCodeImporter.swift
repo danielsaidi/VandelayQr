@@ -103,7 +103,7 @@ public class QrCodeImporter: DataImporter, StringImporter {
 
 private extension QrCodeImporter {
     
-    func getUrlFromQrCodeScanner(completion: @escaping (URL?, ImportError?) -> ()) {
+    func getUrlFromQrCodeScanner(completion: @escaping (URL?, ImportError?) -> Void) {
         guard let vc = fromViewController else { return completion(nil, .fromViewControllerDeallocated) }
         guard QRCodeReader.isAvailable() else { return completion(nil, .unsupportedDevice)}
         
@@ -117,7 +117,7 @@ private extension QrCodeImporter {
         vc.present(scanner, animated: true, completion: nil)
     }
     
-    func parseUrl(from result: QRCodeReaderResult?, completion: @escaping (URL?, ImportError?) -> ()) {
+    func parseUrl(from result: QRCodeReaderResult?, completion: @escaping (URL?, ImportError?) -> Void) {
         guard let result = result else { return completion(nil, .noContentDetected) }
         guard let url = URL(string: result.value) else { return completion(nil, .noUrlDetected) }
         completion(url, nil)
