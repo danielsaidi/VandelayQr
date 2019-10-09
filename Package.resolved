@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/Quick/Nimble.git",
+        "state": {
+          "branch": null,
+          "revision": "f8657642dfdec9973efc79cc68bcef43a653a2bc",
+          "version": "8.0.2"
+        }
+      },
+      {
+        "package": "QRCodeReader",
+        "repositoryURL": "https://github.com/yannickl/QRCodeReader.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "5020b5a47199d8ba80c83a4b4fafd70e9dc9dc7f",
+          "version": "10.1.1"
+        }
+      },
+      {
+        "package": "Quick",
+        "repositoryURL": "https://github.com/Quick/Quick.git",
+        "state": {
+          "branch": null,
+          "revision": "33682c2f6230c60614861dfc61df267e11a1602f",
+          "version": "2.2.0"
+        }
+      },
+      {
+        "package": "Vandelay",
+        "repositoryURL": "https://github.com/danielsaidi/Vandelay.git",
+        "state": {
+          "branch": null,
+          "revision": "920aaa3559c043028d1934fd1a19bc5658dbaa51",
+          "version": "0.9.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
