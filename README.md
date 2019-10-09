@@ -38,7 +38,7 @@ pod "VandelayQr"
 ### Carthage
 
 ```ruby
-github "danielsaidi/Vandelay"
+github "danielsaidi/VandelayQr"
 ```
 
 
