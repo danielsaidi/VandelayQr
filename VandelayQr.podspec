@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VandelayQr'
-  s.version          = '0.8.2'
+  s.version          = '0.9.0'
   s.swift_versions   = ['5.1']
   s.summary          = 'VandelayQr adds QR code support to Vandelay.'
 
