@@ -21,6 +21,42 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		8484EDF6234DAFE50021B666 /* StringImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDDD234DAFE40021B666 /* StringImporter.swift */; };
+		8484EDF7234DAFE50021B666 /* Exporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDDE234DAFE40021B666 /* Exporter.swift */; };
+		8484EDF8234DAFE50021B666 /* Importer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDDF234DAFE40021B666 /* Importer.swift */; };
+		8484EDF9234DAFE50021B666 /* RandomFileNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDE1234DAFE40021B666 /* RandomFileNameGenerator.swift */; };
+		8484EDFA234DAFE50021B666 /* StaticFileNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDE2234DAFE40021B666 /* StaticFileNameGenerator.swift */; };
+		8484EDFB234DAFE50021B666 /* FileNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDE3234DAFE40021B666 /* FileNameGenerator.swift */; };
+		8484EDFC234DAFE50021B666 /* EmailExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDE5234DAFE40021B666 /* EmailExporter.swift */; };
+		8484EDFD234DAFE50021B666 /* FileExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDE6234DAFE40021B666 /* FileExporter.swift */; };
+		8484EDFE234DAFE50021B666 /* PasteboardExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDE7234DAFE40021B666 /* PasteboardExporter.swift */; };
+		8484EDFF234DAFE50021B666 /* ExportMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDE8234DAFE40021B666 /* ExportMethod.swift */; };
+		8484EE00234DAFE50021B666 /* MessageExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDE9234DAFE40021B666 /* MessageExporter.swift */; };
+		8484EE01234DAFE50021B666 /* ExportState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDEA234DAFE50021B666 /* ExportState.swift */; };
+		8484EE02234DAFE50021B666 /* ImportMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDEC234DAFE50021B666 /* ImportMethod.swift */; };
+		8484EE03234DAFE50021B666 /* UrlImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDED234DAFE50021B666 /* UrlImporter.swift */; };
+		8484EE04234DAFE50021B666 /* FileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDEE234DAFE50021B666 /* FileImporter.swift */; };
+		8484EE05234DAFE50021B666 /* PasteboardImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDEF234DAFE50021B666 /* PasteboardImporter.swift */; };
+		8484EE06234DAFE50021B666 /* StringExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDF0234DAFE50021B666 /* StringExporter.swift */; };
+		8484EE07234DAFE50021B666 /* DataImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDF1234DAFE50021B666 /* DataImporter.swift */; };
+		8484EE08234DAFE50021B666 /* DataExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDF2234DAFE50021B666 /* DataExporter.swift */; };
+		8484EE09234DAFE50021B666 /* ImportResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDF3234DAFE50021B666 /* ImportResult.swift */; };
+		8484EE0A234DAFE50021B666 /* ExportResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDF4234DAFE50021B666 /* ExportResult.swift */; };
+		8484EE0B234DAFE50021B666 /* ImportState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EDF5234DAFE50021B666 /* ImportState.swift */; };
+		8484EE0D234E09FF0021B666 /* ViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EE0C234E09FF0021B666 /* ViewController+Alert.swift */; };
+		8484EE0F234E0B040021B666 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484EE0E234E0B040021B666 /* TestData.swift */; };
+		84AF3E44234D47F4004E0297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3E43234D47F4004E0297 /* AppDelegate.swift */; };
+		84AF3E46234D47F4004E0297 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3E45234D47F4004E0297 /* SceneDelegate.swift */; };
+		84AF3E48234D47F4004E0297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3E47234D47F4004E0297 /* ViewController.swift */; };
+		84AF3E4B234D47F4004E0297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3E49234D47F4004E0297 /* Main.storyboard */; };
+		84AF3E4D234D47F5004E0297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3E4C234D47F5004E0297 /* Assets.xcassets */; };
+		84AF3E50234D47F5004E0297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3E4E234D47F5004E0297 /* LaunchScreen.storyboard */; };
+		84AF3E57234D4BEE004E0297 /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "QRCodeReader::QRCodeReader::Product" /* QRCodeReader.framework */; };
+		84AF3E58234D4BEE004E0297 /* QRCodeReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "QRCodeReader::QRCodeReader::Product" /* QRCodeReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84AF3E5B234D4BEE004E0297 /* Vandelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Vandelay::Vandelay::Product" /* Vandelay.framework */; };
+		84AF3E5C234D4BEE004E0297 /* Vandelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "Vandelay::Vandelay::Product" /* Vandelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84AF3E5F234D4BEE004E0297 /* VandelayQr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "VandelayQr::VandelayQr::Product" /* VandelayQr.framework */; };
+		84AF3E60234D4BEE004E0297 /* VandelayQr.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "VandelayQr::VandelayQr::Product" /* VandelayQr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		OBJ_170 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* AdapterProtocols.swift */; };
 		OBJ_171 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* AssertionDispatcher.swift */; };
 		OBJ_172 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* AssertionRecorder.swift */; };
@@ -112,28 +148,6 @@
 		OBJ_288 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* Package.swift */; };
 		OBJ_293 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* QuickSpecBase.m */; };
 		OBJ_295 /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		OBJ_302 /* DataExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* DataExporter.swift */; };
-		OBJ_303 /* EmailExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* EmailExporter.swift */; };
-		OBJ_304 /* ExportMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* ExportMethod.swift */; };
-		OBJ_305 /* ExportResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ExportResult.swift */; };
-		OBJ_306 /* ExportState.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ExportState.swift */; };
-		OBJ_307 /* Exporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Exporter.swift */; };
-		OBJ_308 /* FileExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* FileExporter.swift */; };
-		OBJ_309 /* MessageExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* MessageExporter.swift */; };
-		OBJ_310 /* PasteboardExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* PasteboardExporter.swift */; };
-		OBJ_311 /* StringExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* StringExporter.swift */; };
-		OBJ_312 /* FileNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* FileNameGenerator.swift */; };
-		OBJ_313 /* RandomFileNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* RandomFileNameGenerator.swift */; };
-		OBJ_314 /* StaticFileNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* StaticFileNameGenerator.swift */; };
-		OBJ_315 /* DataImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* DataImporter.swift */; };
-		OBJ_316 /* FileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* FileImporter.swift */; };
-		OBJ_317 /* ImportMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* ImportMethod.swift */; };
-		OBJ_318 /* ImportResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* ImportResult.swift */; };
-		OBJ_319 /* ImportState.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* ImportState.swift */; };
-		OBJ_320 /* Importer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Importer.swift */; };
-		OBJ_321 /* PasteboardImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* PasteboardImporter.swift */; };
-		OBJ_322 /* StringImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* StringImporter.swift */; };
-		OBJ_323 /* UrlImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* UrlImporter.swift */; };
 		OBJ_330 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Package.swift */; };
 		OBJ_336 /* QrCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* QrCodeGenerator.swift */; };
 		OBJ_337 /* QrCodeImportMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* QrCodeImportMethod.swift */; };
@@ -224,11 +238,80 @@
 			remoteGlobalIDString = "VandelayQr::VandelayQrTests";
 			remoteInfo = VandelayQrTests;
 		};
+		84AF3E59234D4BEE004E0297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "QRCodeReader::QRCodeReader";
+			remoteInfo = QRCodeReader;
+		};
+		84AF3E5D234D4BEE004E0297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Vandelay::Vandelay";
+			remoteInfo = Vandelay;
+		};
+		84AF3E61234D4BEE004E0297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "VandelayQr::VandelayQr";
+			remoteInfo = VandelayQr;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		84AF3E63234D4BEE004E0297 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84AF3E60234D4BEE004E0297 /* VandelayQr.framework in Embed Frameworks */,
+				84AF3E5C234D4BEE004E0297 /* Vandelay.framework in Embed Frameworks */,
+				84AF3E58234D4BEE004E0297 /* QRCodeReader.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8484EDDD234DAFE40021B666 /* StringImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringImporter.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/StringImporter.swift; sourceTree = "<group>"; };
+		8484EDDE234DAFE40021B666 /* Exporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exporter.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/Exporter.swift; sourceTree = "<group>"; };
+		8484EDDF234DAFE40021B666 /* Importer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Importer.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/Importer.swift; sourceTree = "<group>"; };
+		8484EDE1234DAFE40021B666 /* RandomFileNameGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFileNameGenerator.swift; sourceTree = "<group>"; };
+		8484EDE2234DAFE40021B666 /* StaticFileNameGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticFileNameGenerator.swift; sourceTree = "<group>"; };
+		8484EDE3234DAFE40021B666 /* FileNameGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNameGenerator.swift; sourceTree = "<group>"; };
+		8484EDE5234DAFE40021B666 /* EmailExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailExporter.swift; sourceTree = "<group>"; };
+		8484EDE6234DAFE40021B666 /* FileExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExporter.swift; sourceTree = "<group>"; };
+		8484EDE7234DAFE40021B666 /* PasteboardExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteboardExporter.swift; sourceTree = "<group>"; };
+		8484EDE8234DAFE40021B666 /* ExportMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportMethod.swift; sourceTree = "<group>"; };
+		8484EDE9234DAFE40021B666 /* MessageExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageExporter.swift; sourceTree = "<group>"; };
+		8484EDEA234DAFE50021B666 /* ExportState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExportState.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/ExportState.swift; sourceTree = "<group>"; };
+		8484EDEC234DAFE50021B666 /* ImportMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportMethod.swift; sourceTree = "<group>"; };
+		8484EDED234DAFE50021B666 /* UrlImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlImporter.swift; sourceTree = "<group>"; };
+		8484EDEE234DAFE50021B666 /* FileImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileImporter.swift; sourceTree = "<group>"; };
+		8484EDEF234DAFE50021B666 /* PasteboardImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteboardImporter.swift; sourceTree = "<group>"; };
+		8484EDF0234DAFE50021B666 /* StringExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExporter.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/StringExporter.swift; sourceTree = "<group>"; };
+		8484EDF1234DAFE50021B666 /* DataImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataImporter.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/DataImporter.swift; sourceTree = "<group>"; };
+		8484EDF2234DAFE50021B666 /* DataExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataExporter.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/DataExporter.swift; sourceTree = "<group>"; };
+		8484EDF3234DAFE50021B666 /* ImportResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImportResult.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/ImportResult.swift; sourceTree = "<group>"; };
+		8484EDF4234DAFE50021B666 /* ExportResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExportResult.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/ExportResult.swift; sourceTree = "<group>"; };
+		8484EDF5234DAFE50021B666 /* ImportState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImportState.swift; path = .build/checkouts/Vandelay/Sources/Vandelay/ImportState.swift; sourceTree = "<group>"; };
+		8484EE0C234E09FF0021B666 /* ViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Alert.swift"; sourceTree = "<group>"; };
+		8484EE0E234E0B040021B666 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		84AF3E39234D45CF004E0297 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		84AF3E3A234D45CF004E0297 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		84AF3E41234D47F4004E0297 /* VandelayQRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VandelayQRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AF3E43234D47F4004E0297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84AF3E45234D47F4004E0297 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84AF3E47234D47F4004E0297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84AF3E4A234D47F4004E0297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AF3E4C234D47F5004E0297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84AF3E4F234D47F5004E0297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84AF3E51234D47F5004E0297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* QrCodeImportMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeImportMethod.swift; sourceTree = "<group>"; };
 		OBJ_100 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleEnvironment.swift; sourceTree = "<group>"; };
@@ -301,28 +384,6 @@
 		OBJ_28 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderOverlayView.swift; sourceTree = "<group>"; };
 		OBJ_29 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCameraButton.swift; sourceTree = "<group>"; };
 		OBJ_30 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTorchButton.swift; sourceTree = "<group>"; };
-		OBJ_34 /* DataExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExporter.swift; sourceTree = "<group>"; };
-		OBJ_35 /* EmailExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailExporter.swift; sourceTree = "<group>"; };
-		OBJ_36 /* ExportMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportMethod.swift; sourceTree = "<group>"; };
-		OBJ_37 /* ExportResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportResult.swift; sourceTree = "<group>"; };
-		OBJ_38 /* ExportState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportState.swift; sourceTree = "<group>"; };
-		OBJ_39 /* Exporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exporter.swift; sourceTree = "<group>"; };
-		OBJ_40 /* FileExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExporter.swift; sourceTree = "<group>"; };
-		OBJ_41 /* MessageExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageExporter.swift; sourceTree = "<group>"; };
-		OBJ_42 /* PasteboardExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardExporter.swift; sourceTree = "<group>"; };
-		OBJ_43 /* StringExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExporter.swift; sourceTree = "<group>"; };
-		OBJ_45 /* FileNameGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNameGenerator.swift; sourceTree = "<group>"; };
-		OBJ_46 /* RandomFileNameGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFileNameGenerator.swift; sourceTree = "<group>"; };
-		OBJ_47 /* StaticFileNameGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFileNameGenerator.swift; sourceTree = "<group>"; };
-		OBJ_49 /* DataImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataImporter.swift; sourceTree = "<group>"; };
-		OBJ_50 /* FileImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileImporter.swift; sourceTree = "<group>"; };
-		OBJ_51 /* ImportMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportMethod.swift; sourceTree = "<group>"; };
-		OBJ_52 /* ImportResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportResult.swift; sourceTree = "<group>"; };
-		OBJ_53 /* ImportState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportState.swift; sourceTree = "<group>"; };
-		OBJ_54 /* Importer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Importer.swift; sourceTree = "<group>"; };
-		OBJ_55 /* PasteboardImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardImporter.swift; sourceTree = "<group>"; };
-		OBJ_56 /* StringImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringImporter.swift; sourceTree = "<group>"; };
-		OBJ_57 /* UrlImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImporter.swift; sourceTree = "<group>"; };
 		OBJ_58 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/admin/Projects/Vandelay/VandelayQr/.build/checkouts/Vandelay/Package.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_61 /* Behavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Behavior.swift; sourceTree = "<group>"; };
@@ -366,6 +427,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		84AF3E3E234D47F4004E0297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF3E5F234D4BEE004E0297 /* VandelayQr.framework in Frameworks */,
+				84AF3E5B234D4BEE004E0297 /* Vandelay.framework in Frameworks */,
+				84AF3E57234D4BEE004E0297 /* QRCodeReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_222 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -427,6 +498,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8484EDE0234DAFE40021B666 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				8484EDE1234DAFE40021B666 /* RandomFileNameGenerator.swift */,
+				8484EDE2234DAFE40021B666 /* StaticFileNameGenerator.swift */,
+				8484EDE3234DAFE40021B666 /* FileNameGenerator.swift */,
+			);
+			name = File;
+			path = .build/checkouts/Vandelay/Sources/Vandelay/File;
+			sourceTree = "<group>";
+		};
+		8484EDE4234DAFE40021B666 /* Exporters */ = {
+			isa = PBXGroup;
+			children = (
+				8484EDE5234DAFE40021B666 /* EmailExporter.swift */,
+				8484EDE6234DAFE40021B666 /* FileExporter.swift */,
+				8484EDE7234DAFE40021B666 /* PasteboardExporter.swift */,
+				8484EDE8234DAFE40021B666 /* ExportMethod.swift */,
+				8484EDE9234DAFE40021B666 /* MessageExporter.swift */,
+			);
+			name = Exporters;
+			path = .build/checkouts/Vandelay/Sources/Vandelay/Exporters;
+			sourceTree = "<group>";
+		};
+		8484EDEB234DAFE50021B666 /* Importers */ = {
+			isa = PBXGroup;
+			children = (
+				8484EDEC234DAFE50021B666 /* ImportMethod.swift */,
+				8484EDED234DAFE50021B666 /* UrlImporter.swift */,
+				8484EDEE234DAFE50021B666 /* FileImporter.swift */,
+				8484EDEF234DAFE50021B666 /* PasteboardImporter.swift */,
+			);
+			name = Importers;
+			path = .build/checkouts/Vandelay/Sources/Vandelay/Importers;
+			sourceTree = "<group>";
+		};
 		84AF3E38234D454B004E0297 /* Project Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +545,37 @@
 				OBJ_164 /* RELEASE_NOTES.md */,
 			);
 			name = "Project Files";
+			sourceTree = "<group>";
+		};
+		84AF3E42234D47F4004E0297 /* VandelayQRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84AF3E4C234D47F5004E0297 /* Assets.xcassets */,
+				84AF3E55234D4833004E0297 /* Supporting Files */,
+				84AF3E47234D47F4004E0297 /* ViewController.swift */,
+				8484EE0C234E09FF0021B666 /* ViewController+Alert.swift */,
+				8484EE0E234E0B040021B666 /* TestData.swift */,
+			);
+			path = VandelayQRDemo;
+			sourceTree = "<group>";
+		};
+		84AF3E55234D4833004E0297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AF3E43234D47F4004E0297 /* AppDelegate.swift */,
+				84AF3E45234D47F4004E0297 /* SceneDelegate.swift */,
+				84AF3E49234D47F4004E0297 /* Main.storyboard */,
+				84AF3E4E234D47F5004E0297 /* LaunchScreen.storyboard */,
+				84AF3E51234D47F5004E0297 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AF3E56234D4BEE004E0297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		OBJ_102 /* NonObjectiveC */ = {
@@ -529,6 +667,7 @@
 				"Quick::Quick::Product" /* Quick.framework */,
 				"Quick::QuickSpecBase::Product" /* QuickSpecBase.framework */,
 				"Vandelay::Vandelay::Product" /* Vandelay.framework */,
+				84AF3E41234D47F4004E0297 /* VandelayQRDemo.app */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -566,79 +705,38 @@
 		OBJ_31 /* Vandelay */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_32 /* Vandelay */,
+				8484EDF2234DAFE50021B666 /* DataExporter.swift */,
+				8484EDF1234DAFE50021B666 /* DataImporter.swift */,
+				8484EDDE234DAFE40021B666 /* Exporter.swift */,
+				8484EDE4234DAFE40021B666 /* Exporters */,
+				8484EDF4234DAFE50021B666 /* ExportResult.swift */,
+				8484EDEA234DAFE50021B666 /* ExportState.swift */,
+				8484EDE0234DAFE40021B666 /* File */,
+				8484EDDF234DAFE40021B666 /* Importer.swift */,
+				8484EDEB234DAFE50021B666 /* Importers */,
+				8484EDF3234DAFE50021B666 /* ImportResult.swift */,
+				8484EDF5234DAFE50021B666 /* ImportState.swift */,
+				8484EDF0234DAFE50021B666 /* StringExporter.swift */,
+				8484EDDD234DAFE40021B666 /* StringImporter.swift */,
 				OBJ_58 /* Package.swift */,
 			);
 			name = Vandelay;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_32 /* Vandelay */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_33 /* Export */,
-				OBJ_44 /* File */,
-				OBJ_48 /* Import */,
-			);
-			name = Vandelay;
-			path = .build/checkouts/Vandelay/Sources/Vandelay;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_33 /* Export */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_34 /* DataExporter.swift */,
-				OBJ_35 /* EmailExporter.swift */,
-				OBJ_36 /* ExportMethod.swift */,
-				OBJ_37 /* ExportResult.swift */,
-				OBJ_38 /* ExportState.swift */,
-				OBJ_39 /* Exporter.swift */,
-				OBJ_40 /* FileExporter.swift */,
-				OBJ_41 /* MessageExporter.swift */,
-				OBJ_42 /* PasteboardExporter.swift */,
-				OBJ_43 /* StringExporter.swift */,
-			);
-			path = Export;
-			sourceTree = "<group>";
-		};
-		OBJ_44 /* File */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_45 /* FileNameGenerator.swift */,
-				OBJ_46 /* RandomFileNameGenerator.swift */,
-				OBJ_47 /* StaticFileNameGenerator.swift */,
-			);
-			path = File;
-			sourceTree = "<group>";
-		};
-		OBJ_48 /* Import */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_49 /* DataImporter.swift */,
-				OBJ_50 /* FileImporter.swift */,
-				OBJ_51 /* ImportMethod.swift */,
-				OBJ_52 /* ImportResult.swift */,
-				OBJ_53 /* ImportState.swift */,
-				OBJ_54 /* Importer.swift */,
-				OBJ_55 /* PasteboardImporter.swift */,
-				OBJ_56 /* StringImporter.swift */,
-				OBJ_57 /* UrlImporter.swift */,
-			);
-			path = Import;
-			sourceTree = "<group>";
-		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_13 /* Tests */,
+				84AF3E42234D47F4004E0297 /* VandelayQRDemo */,
 				OBJ_18 /* Dependencies */,
 				OBJ_151 /* Products */,
 				OBJ_160 /* Fastlane */,
 				OBJ_159 /* Resources */,
 				84AF3E38234D454B004E0297 /* Project Files */,
+				84AF3E56234D4BEE004E0297 /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_59 /* Quick 2.2.0 */ = {
@@ -799,6 +897,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		84AF3E40234D47F4004E0297 /* VandelayQRDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AF3E52234D47F5004E0297 /* Build configuration list for PBXNativeTarget "VandelayQRDemo" */;
+			buildPhases = (
+				84AF3E3D234D47F4004E0297 /* Sources */,
+				84AF3E3E234D47F4004E0297 /* Frameworks */,
+				84AF3E3F234D47F4004E0297 /* Resources */,
+				84AF3E63234D4BEE004E0297 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AF3E5A234D4BEE004E0297 /* PBXTargetDependency */,
+				84AF3E5E234D4BEE004E0297 /* PBXTargetDependency */,
+				84AF3E62234D4BEE004E0297 /* PBXTargetDependency */,
+			);
+			name = VandelayQRDemo;
+			productName = VandelayQRDemo;
+			productReference = 84AF3E41234D47F4004E0297 /* VandelayQRDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		"Nimble::Nimble" /* Nimble */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_166 /* Build configuration list for PBXNativeTarget "Nimble" */;
@@ -999,7 +1118,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 9999;
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					84AF3E40234D47F4004E0297 = {
+						CreatedOnToolsVersion = 11.0;
+						DevelopmentTeam = PMEDFW438U;
+						ProvisioningStyle = Automatic;
+					};
+					"Vandelay::Vandelay" = {
+						LastSwiftMigration = 1100;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "VandelayQr" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1007,8 +1137,9 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_151 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1019,6 +1150,7 @@
 				"VandelayQr::SwiftPMPackageDescription" /* VandelayQrPackageDescription */,
 				"VandelayQr::VandelayQrPackageTests::ProductTarget" /* VandelayQrPackageTests */,
 				"VandelayQr::VandelayQrTests" /* VandelayQrTests */,
+				84AF3E40234D47F4004E0297 /* VandelayQRDemo */,
 				"Nimble::Nimble" /* Nimble */,
 				"Nimble::SwiftPMPackageDescription" /* NimblePackageDescription */,
 				"QRCodeReader::QRCodeReader" /* QRCodeReader */,
@@ -1029,6 +1161,19 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AF3E3F234D47F4004E0297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF3E50234D47F5004E0297 /* LaunchScreen.storyboard in Resources */,
+				84AF3E4D234D47F5004E0297 /* Assets.xcassets in Resources */,
+				84AF3E4B234D47F4004E0297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		84AF3E3B234D46A6004E0297 /* SwiftLint */ = {
@@ -1052,6 +1197,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		84AF3E3D234D47F4004E0297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF3E48234D47F4004E0297 /* ViewController.swift in Sources */,
+				84AF3E44234D47F4004E0297 /* AppDelegate.swift in Sources */,
+				84AF3E46234D47F4004E0297 /* SceneDelegate.swift in Sources */,
+				8484EE0F234E0B040021B666 /* TestData.swift in Sources */,
+				8484EE0D234E09FF0021B666 /* ViewController+Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_169 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -1194,28 +1351,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_302 /* DataExporter.swift in Sources */,
-				OBJ_303 /* EmailExporter.swift in Sources */,
-				OBJ_304 /* ExportMethod.swift in Sources */,
-				OBJ_305 /* ExportResult.swift in Sources */,
-				OBJ_306 /* ExportState.swift in Sources */,
-				OBJ_307 /* Exporter.swift in Sources */,
-				OBJ_308 /* FileExporter.swift in Sources */,
-				OBJ_309 /* MessageExporter.swift in Sources */,
-				OBJ_310 /* PasteboardExporter.swift in Sources */,
-				OBJ_311 /* StringExporter.swift in Sources */,
-				OBJ_312 /* FileNameGenerator.swift in Sources */,
-				OBJ_313 /* RandomFileNameGenerator.swift in Sources */,
-				OBJ_314 /* StaticFileNameGenerator.swift in Sources */,
-				OBJ_315 /* DataImporter.swift in Sources */,
-				OBJ_316 /* FileImporter.swift in Sources */,
-				OBJ_317 /* ImportMethod.swift in Sources */,
-				OBJ_318 /* ImportResult.swift in Sources */,
-				OBJ_319 /* ImportState.swift in Sources */,
-				OBJ_320 /* Importer.swift in Sources */,
-				OBJ_321 /* PasteboardImporter.swift in Sources */,
-				OBJ_322 /* StringImporter.swift in Sources */,
-				OBJ_323 /* UrlImporter.swift in Sources */,
+				8484EE02234DAFE50021B666 /* ImportMethod.swift in Sources */,
+				8484EDFB234DAFE50021B666 /* FileNameGenerator.swift in Sources */,
+				8484EE06234DAFE50021B666 /* StringExporter.swift in Sources */,
+				8484EE09234DAFE50021B666 /* ImportResult.swift in Sources */,
+				8484EE00234DAFE50021B666 /* MessageExporter.swift in Sources */,
+				8484EE03234DAFE50021B666 /* UrlImporter.swift in Sources */,
+				8484EDFC234DAFE50021B666 /* EmailExporter.swift in Sources */,
+				8484EE01234DAFE50021B666 /* ExportState.swift in Sources */,
+				8484EE08234DAFE50021B666 /* DataExporter.swift in Sources */,
+				8484EDFE234DAFE50021B666 /* PasteboardExporter.swift in Sources */,
+				8484EDF7234DAFE50021B666 /* Exporter.swift in Sources */,
+				8484EDFF234DAFE50021B666 /* ExportMethod.swift in Sources */,
+				8484EDF9234DAFE50021B666 /* RandomFileNameGenerator.swift in Sources */,
+				8484EE05234DAFE50021B666 /* PasteboardImporter.swift in Sources */,
+				8484EDF6234DAFE50021B666 /* StringImporter.swift in Sources */,
+				8484EE0A234DAFE50021B666 /* ExportResult.swift in Sources */,
+				8484EE04234DAFE50021B666 /* FileImporter.swift in Sources */,
+				8484EDF8234DAFE50021B666 /* Importer.swift in Sources */,
+				8484EE07234DAFE50021B666 /* DataImporter.swift in Sources */,
+				8484EDFD234DAFE50021B666 /* FileExporter.swift in Sources */,
+				8484EE0B234DAFE50021B666 /* ImportState.swift in Sources */,
+				8484EDFA234DAFE50021B666 /* StaticFileNameGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1259,6 +1416,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		84AF3E5A234D4BEE004E0297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "QRCodeReader::QRCodeReader" /* QRCodeReader */;
+			targetProxy = 84AF3E59234D4BEE004E0297 /* PBXContainerItemProxy */;
+		};
+		84AF3E5E234D4BEE004E0297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Vandelay::Vandelay" /* Vandelay */;
+			targetProxy = 84AF3E5D234D4BEE004E0297 /* PBXContainerItemProxy */;
+		};
+		84AF3E62234D4BEE004E0297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "VandelayQr::VandelayQr" /* VandelayQr */;
+			targetProxy = 84AF3E61234D4BEE004E0297 /* PBXContainerItemProxy */;
+		};
 		OBJ_281 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Quick::QuickSpecBase" /* QuickSpecBase */;
@@ -1311,7 +1483,148 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		84AF3E49234D47F4004E0297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF3E4A234D47F4004E0297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AF3E4E234D47F5004E0297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF3E4F234D47F5004E0297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		84AF3E53234D47F5004E0297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = VandelayQRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84AF3E54234D47F5004E0297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = PMEDFW438U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = VandelayQRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.VandelayQRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		OBJ_167 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1589,6 +1902,8 @@
 		OBJ_299 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1605,6 +1920,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = Vandelay;
 			};
@@ -1643,6 +1959,8 @@
 		OBJ_300 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1763,6 +2081,7 @@
 		OBJ_358 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1787,6 +2106,7 @@
 		OBJ_359 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1838,6 +2158,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		84AF3E52234D47F5004E0297 /* Build configuration list for PBXNativeTarget "VandelayQRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AF3E53234D47F5004E0297 /* Debug */,
+				84AF3E54234D47F5004E0297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		OBJ_166 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

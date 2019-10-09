@@ -66,12 +66,12 @@ public class QrCodeImporter: DataImporter, StringImporter {
                 return completion(result)
             }
             
-            guard let url = url else {
+            guard let result = url else {
                 let result = ImportResult(method: method, error: ImportError.noUrlDetected)
                 return completion(result)
             }
             
-            let importer = UrlImporter(url: url)
+            let importer = UrlImporter(url: result)
             importer.importData(completion: completion)
         }
     }

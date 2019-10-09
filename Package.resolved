@@ -32,9 +32,9 @@
         "package": "Vandelay",
         "repositoryURL": "https://github.com/danielsaidi/Vandelay.git",
         "state": {
-          "branch": "0.9.0",
-          "revision": "eaea7f4fce031721286cb1b00f88f10e919c9f42",
-          "version": null
+          "branch": null,
+          "revision": "920aaa3559c043028d1934fd1a19bc5658dbaa51",
+          "version": "0.9.1"
         }
       }
     ]
