@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VandelayQr'
   s.version          = '0.8.1'
+  s.swift_versions   = ['5.1']
   s.summary          = 'VandelayQr adds QR code support to Vandelay.'
 
   s.description      = <<-DESC
@@ -18,6 +19,6 @@ data by scanning QR codes.
 
   s.source_files = 'Sources/**/*.{swift}'
   
-  s.dependency 'Vandelay', '0.9.0'
-  s.dependency 'QRCodeReader.swift', '10.1.1'
+  s.dependency 'Vandelay', '0.9.1'
+  s.dependency 'QRCodeReader.swift', '~> 10.1.0'
 end
