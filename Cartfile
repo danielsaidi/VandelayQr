@@ -1,0 +1,2 @@
+github "danielsaidi/Vandelay" ~> 0.9.1
+github "yannickl/QRCodeReader.swift" ~> 10.1.0

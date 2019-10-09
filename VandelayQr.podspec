@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
   s.summary          = 'VandelayQr adds QR code support to Vandelay.'
 
   s.description      = <<-DESC
-VandelayQr adds QR code support to Vandelay. You can use it to import
-data by scanning QR codes.
+VandelayQr adds QR code support to Vandelay. You can use it to import data by scanning QR codes.
                        DESC
 
   s.homepage         = 'https://github.com/danielsaidi/VandelayQr'
@@ -19,6 +18,6 @@ data by scanning QR codes.
 
   s.source_files = 'Sources/**/*.{swift}'
   
-  s.dependency 'Vandelay', '0.9.1'
+  s.dependency 'Vandelay', '~> 0.9.1'
   s.dependency 'QRCodeReader.swift', '~> 10.1.0'
 end
