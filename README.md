@@ -17,9 +17,7 @@
 
 ## About
 
-VandelayQr adds QR code support to [Vandelay][Vandelay]. It adds a `QrCodeImporter` that can import strings and data by scanning QR codes. 
-
-VandelayQr also provides a class that can create QR code images from any URL.
+VandelayQr adds QR code support to [Vandelay][Vandelay]. It adds a `QrCodeImporter` that can import strings and data by scanning QR codes. It also provides tools for creating QR code images from any URL.
 
 
 ## Installation
@@ -28,7 +26,7 @@ VandelayQr also provides a class that can create QR code images from any URL.
 
 The easiest way to add VandelayQr to your project is to use Swift Package Manager:
 ```
-.package(url: "git@github.com:danielsaidi/VandelayQr.git" ...)
+https://github.com/danielsaidi/VandelayQr.git
 ```
 
 ### Cocoapods
@@ -55,9 +53,9 @@ If you add `VandelayQr`, you get access to the following importer:
 
 - `QrCodeImporter` - imports `strings` and `data` by scanning QR codes
 
-To use this feature, make sure to specify a `NSCameraUsageDescription` text in `Info.plist`. Otherwise, the app will crash.
+To use this importer, you must add `NSCameraUsageDescription` to `Info.plist`. Otherwise, the app will crash. You must also configure `NSAppTransportSecurity` in `Info.plist` to make sure that the app can fetch the scanned url. 
 
-Also configure `NSAppTransportSecurity` in `Info.plist` to make sure that the app can fetch the scanned url. The demo app has `NSAllowsArbitraryLoads` set to `true`. For real world apps, this is considered a bad practice.
+The demo app has `NSAllowsArbitraryLoads` set to `true`. For real world apps, this is considered a bad practice.
 
 
 ## Demo App
