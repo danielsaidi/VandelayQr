@@ -17,8 +17,8 @@ let package = Package(
         .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "3.0.0")),
         .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "8.0.0")),
         .package(url: "https://github.com/danielsaidi/Mockery.git", .upToNextMajor(from: "0.3.3")),
-        .package(url: "https://github.com/danielsaidi/Vandelay.git", .upToNextMajor(from: "0.9.1")),
-        .package(url: "https://github.com/yannickl/QRCodeReader.swift.git", .upToNextMinor(from: "10.1.0"))
+        .package(url: "https://github.com/danielsaidi/Vandelay.git", .upToNextMajor(from: "0.9.2")),
+        .package(url: "https://github.com/yannickl/QRCodeReader.swift.git", .upToNextMinor(from: "10.1.1"))
     ],
     targets: [
         .target(

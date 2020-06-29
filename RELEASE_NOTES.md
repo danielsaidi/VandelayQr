@@ -1,6 +1,11 @@
 # Release Notes
 
 
+## 0.9.1
+
+This version updates external dependencies to the latest versions.
+
+
 ## 0.9.0
 
 This version adds support for Swift 5.1 and Swift Package Manager.
